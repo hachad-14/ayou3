@@ -1,0 +1,35 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    height: 10vw;
+    background-color: #000;
+}
+
+@media only screen and (max-width: 575px) {
+    body {
+        background-color: #04003e;
+        height: 15vw;
+        position: fixed;
+        /*overflow: hidden;*/
+    }
+    .stories {
+        position: absolute;
+        top: 20vw;
+        left: 5vw;
+    }
+    .circles {
+        float: left;
+    }
+    #c1, #c2, #c3, #c4, #c5 {
+        padding: 10vw 10vw;
+        border: 3px solid #fff;
+        border-radius: 50%;
+        margin-right: 2vw;
+        display:inline;
+
+    }
+}
