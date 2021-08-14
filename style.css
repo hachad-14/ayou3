@@ -34,19 +34,6 @@ body {
         text-align: center;
         width: 120px;
     }
-    #ag h1 {
-        position: absolute;
-        color: #fff;
-        position: absolute;
-        top: -131vw;
-        left: 10vw;
-        font-size: 4vw;
-        font-family:'SF Pro Display';
-        font-style:normal;
-        font-weight:200;
-        src:local('☺︎'), url("http://www.apple.com/wss/fonts/SF-Pro-Display/v1/sf-pro-display_thin.woff") format("woff"), url("http://www.apple.com/wss/fonts/SF-Pro-Display/v1/sf-pro-display_thin.ttf") format("truetype");
-        display: block;
-    }
     .insta {
         position: absolute;
         width: 18vw;
@@ -54,6 +41,15 @@ body {
         margin-top: -150vw;
         left: 10vw;
         box-shadow: 0 3px 3px rgba(0,0,0,0.4);
+    }
+    #ag h1 {
+        position: absolute;
+        color: #fff;
+        top: -131vw;
+        left: 10vw;
+        font-size: 4vw;
+        font-family: 'Atkinson Hyperlegible';
+        display: block;
     }
     .gal {
         background-color: #fff;
@@ -65,6 +61,15 @@ body {
         left: 40vw;
         box-shadow: 0 3px 3px rgba(0,0,0,0.5);
     }
+    #gl h1{
+        position: absolute;
+        color: #fff;
+        top: 56.4vw;
+        left: 42.5vw;
+        font-size: 4vw;
+        font-family: 'Atkinson Hyperlegible';
+        display: block;
+    }
     .notes {
         position: absolute;
         width: 20vw;
@@ -72,5 +77,14 @@ body {
         margin-top: -151vw;
         left: 70vw;
         box-shadow: 0 3px 3px rgba(0,0,0,0);
+    }
+    #txt h1 {
+        position: absolute;
+        color: #fff;
+        top: 56.4vw;
+        left: 75vw;
+        font-size: 4vw;
+        font-family: 'Atkinson Hyperlegible';
+        display: block;
     }
 }
