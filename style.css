@@ -8,6 +8,11 @@ body {
     height: 10vw;
     background-color: #000;
 }
+#ag {
+    position: absolute;
+    width: 10vw;
+    height: auto;
+}
 
 @media only screen and (max-width: 575px) {
     body {
@@ -19,35 +24,36 @@ body {
     #background {
         opacity: 0.8;
         background: #ccc; 
-        display: inline-block;
-        text-align: center;
-        vertical-align: middle;
         width: 100%;
         height: 100%;
-        cursor: pointer;
+        z-index: -1;
     }
-    #ag {
+    .insta {
+        background-color: #fff;
+        border-radius: 5vw;
         position: absolute;
-        top: 30vw;
+        width: 19vw;
+        height: auto;
+        margin-top: -150vw;
         left: 10vw;
-        background-color: #fff;
-        padding: 9vw;
-        border-radius: 3vw;
+
     }
-    #gl {
-        position: absolute;
-        top: 30vw;
-        left: 43vw;
+    .gal {
         background-color: #fff;
-        padding: 9vw;
-        border-radius: 3vw;     
+        border-radius: 4vw;
+        position: absolute;
+        width: 19vw;
+        height: auto;
+        margin-top: -150vw;
+        left: 20vw;
+
     }
-    #txt {
+    .notes {
         position: absolute;
-        top: 30vw;
-        left: 75vw;
-        background-color: #fff;
-        padding: 9vw;
-        border-radius: 3vw;
+        width: 22vw;
+        height: auto;
+        margin-top: -152vw;
+        left: 30vw;
+        
     }
 }
