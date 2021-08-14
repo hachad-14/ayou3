@@ -28,32 +28,49 @@ body {
         height: 100%;
         z-index: -1;
     }
-    .insta {
-        background-color: #fff;
-        border-radius: 5vw;
+    .apps {
+        vertical-align: top;
+        display: inline-block;
+        text-align: center;
+        width: 120px;
+    }
+    #ag h1 {
         position: absolute;
-        width: 19vw;
+        color: #fff;
+        position: absolute;
+        top: -131vw;
+        left: 10vw;
+        font-size: 4vw;
+        font-family:'SF Pro Display';
+        font-style:normal;
+        font-weight:200;
+        src:local('☺︎'), url("http://www.apple.com/wss/fonts/SF-Pro-Display/v1/sf-pro-display_thin.woff") format("woff"), url("http://www.apple.com/wss/fonts/SF-Pro-Display/v1/sf-pro-display_thin.ttf") format("truetype");
+        display: block;
+    }
+    .insta {
+        position: absolute;
+        width: 18vw;
         height: auto;
         margin-top: -150vw;
         left: 10vw;
-
+        box-shadow: 0 3px 3px rgba(0,0,0,0.4);
     }
     .gal {
         background-color: #fff;
-        border-radius: 4vw;
+        border-radius: 5vw;
         position: absolute;
-        width: 19vw;
+        width: 18vw;
         height: auto;
         margin-top: -150vw;
-        left: 30vw;
-
+        left: 40vw;
+        box-shadow: 0 3px 3px rgba(0,0,0,0.5);
     }
     .notes {
         position: absolute;
-        width: 22vw;
+        width: 20vw;
         height: auto;
-        margin-top: -152vw;
-        left: 50vw;
-        
+        margin-top: -151vw;
+        left: 70vw;
+        box-shadow: 0 3px 3px rgba(0,0,0,0);
     }
 }
