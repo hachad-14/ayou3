@@ -31,7 +31,7 @@ body {
         top: 30vw;
         left: 10vw;
         background-color: #fff;
-        padding: 8vw;
+        padding: 9vw;
         border-radius: 3vw;
     }
     #gl {
@@ -39,7 +39,7 @@ body {
         top: 30vw;
         left: 43vw;
         background-color: #fff;
-        padding: 8vw;
+        padding: 9vw;
         border-radius: 3vw;     
     }
     #txt {
@@ -47,7 +47,7 @@ body {
         top: 30vw;
         left: 75vw;
         background-color: #fff;
-        padding: 8vw;
+        padding: 9vw;
         border-radius: 3vw;
     }
 }
