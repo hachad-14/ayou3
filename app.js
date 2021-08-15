@@ -1,4 +1,5 @@
 $(document).ready(function() {
+  document.getElementById("main-page").style.visibility = "visible";
 
   $("#insta").click(function() {
     console.log("test");

@@ -18,7 +18,7 @@ body {
         /*overflow: hidden;*/
     }
     #main-page {
-        visibility: visible;
+        visibility: hidden;
     }
     #background {
         opacity: 0.8;
