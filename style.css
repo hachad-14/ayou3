@@ -28,7 +28,6 @@ body {
         background-size: cover;
         background-position: center center;
         background-repeat: no-repeat;
-        pointer-events: none;
     }
     .apps {
         vertical-align: top;
@@ -43,7 +42,6 @@ body {
         margin-top: -150vw;
         left: 10vw;
         box-shadow: 0 3px 3px rgba(0,0,0,0.4);
-        pointer-events: none;
     }
     #ag h1 {
         position: absolute;
@@ -63,7 +61,6 @@ body {
         margin-top: -150vw;
         left: 40vw;
         box-shadow: 0 3px 3px rgba(0,0,0,0.5);
-        pointer-events: none;
     }
     #gl h1{
         position: absolute;
@@ -81,7 +78,6 @@ body {
         margin-top: -151vw;
         left: 70vw;
         box-shadow: 0 3px 3px rgba(0,0,0,0);
-        pointer-events: none;
     }
     #txt h1 {
         position: absolute;
