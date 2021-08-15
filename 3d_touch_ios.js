@@ -6,7 +6,7 @@ document.querySelectorAll('img').forEach(el=> {
   });
 
   // customize your pressure force
-  const force = 0.2; 
+  const force = 0; 
 
   // iOS
   el.addEventListener('touchforcechange', e => {
