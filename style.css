@@ -29,17 +29,11 @@ body {
         background-position: center center;
         background-repeat: no-repeat;
     }
-    .apps {
-        vertical-align: top;
-        display: inline-block;
-        text-align: center;
-        width: 120px;
-    }
     #insta {
         position: absolute;
         width: 18vw;
         height: auto;
-        margin-top: -150vw;
+        margin-top: -143vw;
         left: 10vw;
         box-shadow: 0 3px 3px rgba(0,0,0,0.4);
     }
@@ -58,7 +52,7 @@ body {
         position: absolute;
         width: 18vw;
         height: auto;
-        margin-top: -150vw;
+        margin-top: -143vw;
         left: 40vw;
         box-shadow: 0 3px 3px rgba(0,0,0,0.5);
     }
@@ -75,7 +69,7 @@ body {
         position: absolute;
         width: 20vw;
         height: auto;
-        margin-top: -151vw;
+        margin-top: -144vw;
         left: 70vw;
         box-shadow: 0 3px 3px rgba(0,0,0,0);
     }
