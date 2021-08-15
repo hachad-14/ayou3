@@ -45,10 +45,6 @@ body {
         margin-top: -150vw;
         left: 10vw;
         box-shadow: 0 3px 3px rgba(0,0,0,0.4);
-        background-image: url(images/IMG_2137.JPG);
-        background-size: cover;
-        background-position: center center;
-        background-repeat: no-repeat;
     }
     #ag h1 {
         position: absolute;
