@@ -35,7 +35,7 @@ body {
         position: absolute;
         background-color: #fff;
         border-radius: 5vw;
-        width: 18vw;
+        width: 17vw;
         height: auto;
         margin-top: 37.5vw;
         left: 10vw;
@@ -54,7 +54,7 @@ body {
         background-color: #fff;
         border-radius: 5vw;
         position: absolute;
-        width: 18vw;
+        width: 17vw;
         height: auto;
         margin-top: 37.5vw;
         left: 40vw;
@@ -71,7 +71,7 @@ body {
     }
     #notes {
         position: absolute;
-        width: 20vw;
+        width: 19vw;
         height: auto;
         margin-top: 36.8vw;
         left: 70vw;
@@ -99,5 +99,61 @@ body {
         width: 9vw;
         height: auto;
         transform: rotate(180deg);
+    }
+    #abTitle {
+        position: absolute;
+        top: 2vw;
+        left: 32vw;
+        font-family: 'Satisfy';
+        font-weight: bolder;
+        font-size: 8vw;
+    }
+    #s1 h1, #s2 h1, #s3 h1, #s4 h1 {
+        position: absolute;
+        top: 19vw;
+        left: 0vw;
+        display: block;
+        font-family: 'Poppins';
+        font-size: 2.5vw;
+    }
+    #s1 {
+        position: absolute;
+        top: 20vw;
+        left: 5vw;
+        padding: 9vw;
+        border: 0.7vw solid #e94f57;
+        border-radius: 50%;
+    }
+    #s2 {
+        position: absolute;
+        top: 20vw;
+        left: 29vw;
+        padding: 9vw;
+        border: 0.7vw solid #e94f57;
+        border-radius: 50%;
+    }
+    #s3 {
+        position: absolute;
+        top: 20vw;
+        left:52vw;
+        padding: 9vw;
+        border: 0.7vw solid #e94f57;
+        border-radius: 50%;
+    }
+    #s4 {
+        position: absolute;
+        top: 20vw;
+        left: 76vw;
+        padding: 9vw;
+        border: 0.7vw solid #e94f57;
+        border-radius: 50%;
+    }
+    #sLine {
+        position: absolute;
+        top: 45vw;
+        width: 100vw;
+        height: 1px;
+        background-color: #000;
+        opacity: 0.1;
     }
 }
