@@ -4,7 +4,7 @@ $(document).ready(function() {
     console.log("test");
     document.getElementById("main-page").style.visibility = "hidden";
     document.getElementById("ayou_gram").style.visibility = "visible";
-
+    document.body.style.backgroundColor = "#fff"; 
     //CODE
   });
 });

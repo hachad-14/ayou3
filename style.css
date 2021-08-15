@@ -2,6 +2,7 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    position: absolute;
 }
 
 body {
@@ -28,6 +29,7 @@ body {
         background-size: cover;
         background-position: center center;
         background-repeat: no-repeat;
+        z-index: -1;
     }
     #insta {
         position: absolute;
@@ -35,7 +37,7 @@ body {
         border-radius: 5vw;
         width: 18vw;
         height: auto;
-        margin-top: -143vw;
+        margin-top: 37.5vw;
         left: 10vw;
         box-shadow: 0 3px 3px rgba(0,0,0,0.5);
     }
@@ -54,7 +56,7 @@ body {
         position: absolute;
         width: 18vw;
         height: auto;
-        margin-top: -143vw;
+        margin-top: 37.5vw;
         left: 40vw;
         box-shadow: 0 3px 3px rgba(0,0,0,0.5);
     }
@@ -71,7 +73,7 @@ body {
         position: absolute;
         width: 20vw;
         height: auto;
-        margin-top: -144vw;
+        margin-top: 36.8vw;
         left: 70vw;
         box-shadow: 0 3px 3px rgba(0,0,0,0);
     }
@@ -90,14 +92,12 @@ body {
     #ayou_gram {
         visibility: hidden;
     }
-    #b {
+    #ag_arrow {
         position: absolute;
-        background-color: #4a9878;
-        padding: 13vw 40vw;
-        top: 65vw;
-        left: 10vw;
-        border-radius: 5vw;
-        opacity: 1;
-        box-shadow: 0 3px 10px rgb(0 0 0 / 1);
+        top: 2vw;
+        left: 0vw;
+        width: 9vw;
+        height: auto;
+        transform: rotate(180deg);
     }
 }
