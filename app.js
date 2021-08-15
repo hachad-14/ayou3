@@ -1,5 +1,7 @@
 $(document).ready(function() {
-  document.getElementById("main-page").style.visibility = "visible";
+  document.addEventListener("DOMContentLoaded", function(event){
+    document.getElementById("main-page").style.visibility = "visible";
+  });
 
   $("#insta").click(function() {
     console.log("test");
