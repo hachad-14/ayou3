@@ -16,13 +16,6 @@ body {
         position: fixed;
         /*overflow: hidden;*/
     }
-    img {
-       -webkit-user-drag: none;
-       user-select: none;
-       -moz-user-select: none;
-       -webkit-user-drag: none;
-       -webkit-user-select: none;
-    }
     #main-page {
         visibility: visible;
     }
