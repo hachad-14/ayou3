@@ -1,5 +1,4 @@
 $(document).ready(function() {
-  document.getElementById("main-page").style.visibility = "hidden";
   window.onload = function(){
     document.getElementById("main-page").style.visibility = "visible"; 
     console.log("page loaded.");
