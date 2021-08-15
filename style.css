@@ -35,7 +35,7 @@ body {
         position: absolute;
         background-color: #fff;
         border-radius: 5vw;
-        width: 15vw;
+        width: 16.5vw;
         height: auto;
         margin-top: 37.5vw;
         left: 10vw;
@@ -54,7 +54,7 @@ body {
         background-color: #fff;
         border-radius: 5vw;
         position: absolute;
-        width: 15vw;
+        width: 16.5vw;
         height: auto;
         margin-top: 37.5vw;
         left: 40vw;
@@ -71,7 +71,7 @@ body {
     }
     #notes {
         position: absolute;
-        width: 17vw;
+        width: 18.5vw;
         height: auto;
         margin-top: 36.8vw;
         left: 70vw;
