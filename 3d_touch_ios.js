@@ -1,5 +1,10 @@
 document.querySelectorAll('img').forEach(el=> {
 
+    el.addEventListener('dragstart', e => {
+        e.preventDefault(); 
+        return false; 
+    });
+  
     // customize your pressure force
     const force = 0.2; 
   
