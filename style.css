@@ -39,12 +39,11 @@ body {
         height: auto;
         margin-top: 37.5vw;
         left: 10vw;
-        box-shadow: 0 3px 3px rgba(0,0,0,0.5);
     }
     #ag h1 {
         position: absolute;
         color: #fff;
-        top: 53.5vw;
+        top: 54.8vw;
         left: 9vw;
         font-size: 4vw;
         font-family: 'Atkinson Hyperlegible';
@@ -58,13 +57,12 @@ body {
         height: auto;
         margin-top: 37.5vw;
         left: 40vw;
-        box-shadow: 0 3px 3px rgba(0,0,0,0.5);
     }
     #gl h1{
         position: absolute;
         color: #fff;
-        top: 53.5vw;
-        left: 41.5vw;
+        top: 54.8vw;
+        left: 42vw;
         font-size: 4vw;
         font-family: 'Atkinson Hyperlegible';
         display: block;
@@ -75,13 +73,12 @@ body {
         height: auto;
         margin-top: 36.8vw;
         left: 70vw;
-        box-shadow: 0 3px 3px rgba(0,0,0,0);
     }
     #txt h1 {
         position: absolute;
         color: #fff;
-        top: 53.5vw;
-        left: 73.5vw;
+        top: 54.8vw;
+        left: 74vw;
         font-size: 4vw;
         font-family: 'Atkinson Hyperlegible';
         display: block;
