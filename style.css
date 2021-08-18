@@ -105,6 +105,13 @@ body {
         font-weight: bolder;
         font-size: 8vw;
     }
+    #circles img{
+        position: absolute;
+        width: 100%;
+        height: auto;
+        top: 0;
+        left: 0;
+    }
     #s1 h1, #s2 h1, #s3 h1, #s4 h1 {
         position: absolute;
         top: 19vw;
@@ -145,6 +152,12 @@ body {
         border: 0.7vw solid #e94f57;
         border-radius: 50%;
     }
+    #s1s {
+        position: absolute;
+        top: 0;
+        left: 0;
+        visibility: visible;
+    }
     #sLine {
         position: absolute;
         top: 45vw;
@@ -152,5 +165,35 @@ body {
         height: 1px;
         background-color: #000;
         opacity: 0.1;
+    }
+    #p1 h1{
+        position: absolute;
+        top: 45vw;
+        left: 12vw;
+        display: block;
+        font-family: 'Poppins';
+        font-size: 4vw;
+    }
+    #p1 p {
+        position: absolute;
+        top: 50vw;
+        left: 12vw;
+        display: block;
+        font-family: 'Poppins';
+        font-size: 3vw;
+    }
+    #pm1 {
+        position: absolute;
+        top: 55vw;
+        width: 100vw;
+        height: auto;
+        z-index: 10;
+    }
+    #pm2 {
+        position: absolute;
+        top: 200vw;
+        width: 100vw;
+        height: auto;
+        z-index: 10;
     }
 }
