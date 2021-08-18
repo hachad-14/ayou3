@@ -171,16 +171,16 @@ body {
         top: 45vw;
         left: 12vw;
         display: block;
-        font-family: 'Poppins';
+        font-family: 'Atkinson Hyperlegible';
         font-size: 4vw;
     }
     #p1 p {
         position: absolute;
-        top: 50vw;
+        top: 49.8vw;
         left: 12vw;
         display: block;
-        font-family: 'Poppins';
-        font-size: 3vw;
+        font-family: 'Atkinson Hyperlegible';
+        font-size: 2.8vw;
     }
     #pm1 {
         position: absolute;
