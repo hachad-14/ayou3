@@ -169,15 +169,15 @@ body {
     #p1 > h1{position: absolute;top: 46vw;left: 12vw;display: block;font-family: 'Atkinson Hyperlegible';font-size: 3.8vw;}
     #p2 > h1{position: absolute;top: 190vw;left: 12vw;display: block;font-family: 'Atkinson Hyperlegible';font-size: 3.8vw;}
     #p3 > h1{position: absolute;top: 335vw;left: 12vw;display: block;font-family: 'Atkinson Hyperlegible';font-size: 3.8vw;}
-    #p4 > h1{position: absolute;top: 46vw;left: 12vw;display: block;font-family: 'Atkinson Hyperlegible';font-size: 3.8vw;}
-    #p5 > h1{position: absolute;top: 46vw;left: 12vw;display: block;font-family: 'Atkinson Hyperlegible';font-size: 3.8vw;}
+    #p4 > h1{position: absolute;top: 505vw;left: 12vw;display: block;font-family: 'Atkinson Hyperlegible';font-size: 3.8vw;}
+    #p5 > h1{position: absolute;top: 640vw;left: 12vw;display: block;font-family: 'Atkinson Hyperlegible';font-size: 3.8vw;}
     #p6 > h1{position: absolute;top: 46vw;left: 12vw;display: block;font-family: 'Atkinson Hyperlegible';font-size: 3.8vw;}
 
     #p1 > p {position: absolute;top: 49.8vw;left: 12vw;display: block;font-family: 'Atkinson Hyperlegible';font-size: 3vw;}
     #p2 > p {position: absolute;top: 193.8vw;left: 12vw;display: block;font-family: 'Atkinson Hyperlegible';font-size: 3vw;}
     #p3 > p {position: absolute;top: 338.8vw;left: 12vw;display: block;font-family: 'Atkinson Hyperlegible';font-size: 3vw;}
-    #p4 > p {position: absolute;top: 49.8vw;left: 12vw;display: block;font-family: 'Atkinson Hyperlegible';font-size: 3vw;}
-    #p5 > p {position: absolute;top: 49.8vw;left: 12vw;display: block;font-family: 'Atkinson Hyperlegible';font-size: 3vw;}
+    #p4 > p {position: absolute;top: 508.8vw;left: 12vw;display: block;font-family: 'Atkinson Hyperlegible';font-size: 3vw;}
+    #p5 > p {position: absolute;top: 643.8vw;left: 12vw;display: block;font-family: 'Atkinson Hyperlegible';font-size: 3vw;}
     #p6 > p {position: absolute;top: 49.8vw;left: 12vw;display: block;font-family: 'Atkinson Hyperlegible';font-size: 3vw;}
 
     #likes {
@@ -213,6 +213,13 @@ body {
     #pm4 {
         position: absolute;
         top: 515vw;
+        width: 100vw;
+        height: auto;
+        z-index: 10;
+    }
+    #pm5 {
+        position: absolute;
+        top: 650vw;
         width: 100vw;
         height: auto;
         z-index: 10;
