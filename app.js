@@ -18,7 +18,7 @@ $(document).ready(function() {
     console.log("test");
     document.getElementById("main-page").style.visibility = "hidden";
     document.getElementById("notesP").style.visibility = "visible";
-    document.body.style.backgroundColor = "#eaeaea";
+    document.body.style.backgroundColor = "#f3f2f8";
     
     $("#n_arrow").click(function() {
       document.getElementById("main-page").style.visibility = "visible";
