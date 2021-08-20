@@ -166,22 +166,29 @@ body {
         background-color: #000;
         opacity: 0.1;
     }
-    #p1 h1{
+    #p1 > h1{position: absolute;top: 46vw;left: 12vw;display: block;font-family: 'Atkinson Hyperlegible';font-size: 3.8vw;}
+    #p2 > h1{position: absolute;top: 190vw;left: 12vw;display: block;font-family: 'Atkinson Hyperlegible';font-size: 3.8vw;}
+    #p3 > h1{position: absolute;top: 335vw;left: 12vw;display: block;font-family: 'Atkinson Hyperlegible';font-size: 3.8vw;}
+    #p4 > h1{position: absolute;top: 46vw;left: 12vw;display: block;font-family: 'Atkinson Hyperlegible';font-size: 3.8vw;}
+    #p5 > h1{position: absolute;top: 46vw;left: 12vw;display: block;font-family: 'Atkinson Hyperlegible';font-size: 3.8vw;}
+    #p6 > h1{position: absolute;top: 46vw;left: 12vw;display: block;font-family: 'Atkinson Hyperlegible';font-size: 3.8vw;}
+
+    #p1 > p {position: absolute;top: 49.8vw;left: 12vw;display: block;font-family: 'Atkinson Hyperlegible';font-size: 3vw;}
+    #p2 > p {position: absolute;top: 193.8vw;left: 12vw;display: block;font-family: 'Atkinson Hyperlegible';font-size: 3vw;}
+    #p3 > p {position: absolute;top: 338.8vw;left: 12vw;display: block;font-family: 'Atkinson Hyperlegible';font-size: 3vw;}
+    #p4 > p {position: absolute;top: 49.8vw;left: 12vw;display: block;font-family: 'Atkinson Hyperlegible';font-size: 3vw;}
+    #p5 > p {position: absolute;top: 49.8vw;left: 12vw;display: block;font-family: 'Atkinson Hyperlegible';font-size: 3vw;}
+    #p6 > p {position: absolute;top: 49.8vw;left: 12vw;display: block;font-family: 'Atkinson Hyperlegible';font-size: 3vw;}
+
+    #likes {
         position: absolute;
-        top: 45vw;
-        left: 12vw;
+        top: 190vw;
+        left: 0vw;
         display: block;
-        font-family: 'Atkinson Hyperlegible';
-        font-size: 4vw;
+        font-family: 'Poppins';
+        font-size: 2.5vw;
     }
-    #p1 p {
-        position: absolute;
-        top: 49.8vw;
-        left: 12vw;
-        display: block;
-        font-family: 'Atkinson Hyperlegible';
-        font-size: 2.8vw;
-    }
+
     #pm1 {
         position: absolute;
         top: 55vw;
@@ -192,6 +199,20 @@ body {
     #pm2 {
         position: absolute;
         top: 200vw;
+        width: 100vw;
+        height: auto;
+        z-index: 10;
+    }
+    #pm3 {
+        position: absolute;
+        top: 345vw;
+        width: 100vw;
+        height: auto;
+        z-index: 10;
+    }
+    #pm4 {
+        position: absolute;
+        top: 515vw;
         width: 100vw;
         height: auto;
         z-index: 10;
