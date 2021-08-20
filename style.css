@@ -278,12 +278,13 @@ body {
         top: 30vw;
         left: 4vw;
         border-radius: 2vw;
+        font-size: 4.5vw;
         font-family: 'Atkinson Hyperlegible';
         color: #7a7a7a;
     }
     #nBar p {
         position: absolute;
-        top: 2vw;
+        top: 1.5vw;
         left: 10vw;
     }
     #form {
