@@ -297,10 +297,17 @@ body {
     }
     #ncForm {
         position: absolute;
-        top: 140.5vw;
+        top: 140vw;
         left: -1vw;
         padding: 5vw 51vw;
         background-color: #f5f5f5;
         border: 1px solid #e2e2e2;
+    }
+    #ncForm p {
+        position: absolute;
+        top: 3vw;
+        left: 45vw;
+        font-family: 'Atkinson Hyperlegible';
+        color: #616161;
     }
 }
