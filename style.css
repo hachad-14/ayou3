@@ -241,7 +241,7 @@ body {
     #heart {
         position: absolute;
         top: 163vw;
-        left: 10vw;
+        left: 2vw;
         width: 10vw;
         -webkit-filter: drop-shadow(1.2px 1.2px 0 black)
                 drop-shadow(-1.2px 1.2px 0 black)
