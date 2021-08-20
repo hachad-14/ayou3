@@ -4,6 +4,6 @@ $(document).ready(function() {
         console.log("test")
     });
     $("#heart").dblclick(function() {
-        document.getElementById("heart").style.filter = "invert(50%)";
+        document.getElementById("heart").style.filter = "invert(36%) sepia(71%) saturate(5026%) hue-rotate(337deg) brightness(96%) contrast(105%)";
       });
 }); 
