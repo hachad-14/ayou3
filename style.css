@@ -287,12 +287,20 @@ body {
         top: 1.5vw;
         left: 10vw;
     }
-    #form {
+    #txForm {
         position: absolute;
         top: 45vw;
         left: 4vw;
         padding: 60vw 46vw;
         background-color: #fff;
         border-radius: 3vw;
+    }
+    #ncForm {
+        position: absolute;
+        top: 130vw;
+        left: -1vw;
+        padding: 5vw 51vw;
+        background-color: #f5f5f5;
+        border: 1px solid #e2e2e2;
     }
 }
