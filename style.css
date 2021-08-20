@@ -243,13 +243,13 @@ body {
         top: 163vw;
         left: 10vw;
         width: 10vw;
-        -webkit-filter: drop-shadow(2px 2px 0 black)
-                drop-shadow(-2px 2px 0 black)
-                drop-shadow(2px -2px 0 black)
-                drop-shadow(-2px -2px 0 black);
-        filter: drop-shadow(2px 2px 0 black)
-                drop-shadow(-2px 2px 0 black)
-                drop-shadow(2px -2px 0 black)
-                drop-shadow(-2px -2px 0 black);
+        -webkit-filter: drop-shadow(1.2px 1.2px 0 black)
+                drop-shadow(-1.2px 1.2px 0 black)
+                drop-shadow(1.2px -1.2px 0 black)
+                drop-shadow(-1.2px -1.2px 0 black);
+        filter: drop-shadow(1.2px 1.2px 0 black)
+                drop-shadow(-1.2px 1.2px 0 black)
+                drop-shadow(1.2px -1.2px 0 black)
+                drop-shadow(-1.2px -1.2px 0 black);
     }
 }
