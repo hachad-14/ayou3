@@ -241,15 +241,15 @@ body {
     #heart {
         position: absolute;
         top: 163vw;
-        left: 2vw;
-        width: 9vw;
-        -webkit-filter: drop-shadow(0.8px 0.8px 0 black)
-                drop-shadow(-0.8px 0.8px 0 black)
-                drop-shadow(0.8px -0.8px 0 black)
-                drop-shadow(-0.8px -0.8px 0 black);
-        filter: drop-shadow(0.8px 0.8px 0 black)
-                drop-shadow(-0.8px 0.8px 0 black)
-                drop-shadow(0.8px -0.8px 0 black)
-                drop-shadow(-0.8px -0.8px 0 black);
+        left: 10vw;
+        width: 10vw;
+        -webkit-filter: drop-shadow(2px 2px 0 black)
+                drop-shadow(-2px 2px 0 black)
+                drop-shadow(2px -2px 0 black)
+                drop-shadow(-2px -2px 0 black);
+        filter: drop-shadow(2px 2px 0 black)
+                drop-shadow(-2px 2px 0 black)
+                drop-shadow(2px -2px 0 black)
+                drop-shadow(-2px -2px 0 black);
     }
 }
