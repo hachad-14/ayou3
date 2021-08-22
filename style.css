@@ -314,7 +314,7 @@ body {
     }
     #firstF h1, #secondF h1, #thirdF h1{position: absolute;top:4vw;left: 4vw;font-family: 'Atkinson Hyperlegible';font-size: 5vw;}
     #firstF p, #secondF p, #thirdF p{position: absolute;top:10vw;left: 4vw;font-family: 'Atkinson Hyperlegible';color: #616161; font-size: 4vw;}
-    #firstF h2, #secondF h2, #thirdF h2{position: absolute;left:0vw;top: 20vw;padding: 1px 45vw;background-color: #000; opacity: 0.1;}
+    #firstF h2, #secondF h2, #thirdF h2{position: absolute;left:0vw;top: 20vw;padding: 0.3px 45vw;background-color: #000; opacity: 0.1;}
 
     #firstF {
         position: absolute;
