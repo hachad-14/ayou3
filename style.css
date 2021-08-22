@@ -294,6 +294,7 @@ body {
         left: 4vw;
         padding: 60vw 46vw;
         background-color: #fefefe;
+        border: 1px solid #e2e2e2;
         border-radius: 3vw;
     }
     #ncForm {
