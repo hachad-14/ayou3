@@ -314,7 +314,7 @@ body {
     }
     #firstF h1, #secondF h1, #thirdF h1{position: absolute;top:4vw;left: 4vw;font-family: 'Atkinson Hyperlegible';font-size: 4.5vw;letter-spacing: -0.15vw;}
     #firstF p, #secondF p, #thirdF p{position: absolute;top:9.3vw;left: 4.2vw;font-family: 'Atkinson Hyperlegible';color: #616161; font-size: 4vw;}
-    #firstF h2, #secondF h2, #thirdF h2{position: absolute;left:0vw;top: 20vw;padding: 0.5px 45vw;background-color: #000; opacity: 0.1;}
+    #firstF h2, #secondF h2, #thirdF h2{position: absolute;left:0vw;top: 18vw;padding: 0.5px 45vw;background-color: #000; opacity: 0.1;}
 
     #firstF {
         position: absolute;
@@ -325,14 +325,14 @@ body {
     }
     #secondF {
         position: absolute;
-        top: 20vw;
+        top: 18vw;
         left: 1vw;
         padding: 10vw 45vw;
         border-radius: 3vw;
     }
     #thirdF {
         position: absolute;
-        top: 39vw;
+        top: 35vw;
         left: 1vw;
         padding: 10vw 45vw;
         border-radius: 3vw;
