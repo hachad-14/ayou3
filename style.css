@@ -274,7 +274,7 @@ body {
     #nBar {
         position: absolute;
         padding: 4.5vw 46vw;
-        background-color: #e4e3e9;
+        background-color: #e0e0e4;
         top: 30vw;
         left: 4vw;
         border-radius: 2vw;
@@ -293,7 +293,7 @@ body {
         top: 45vw;
         left: 4vw;
         padding: 60vw 46vw;
-        background-color: #fff;
+        background-color: #fefefe;
         border-radius: 3vw;
     }
     #ncForm {
