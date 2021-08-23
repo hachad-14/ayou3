@@ -337,4 +337,33 @@ body {
         padding: 10vw 45vw;
         border-radius: 3vw;
     }
+    #ntBod{
+        visibility: hidden;
+        position: absolute;
+        padding: 80vw 43.5vw;
+        top: 30vw;
+        left: 6.5vw;
+        border-radius: 5vw;
+        opacity: 1;
+    }
+    #noteTxt {
+        overflow-wrap: break-word;
+        word-wrap: break-word;
+        position: absolute;
+        left: 0;
+        top: 1vw;
+        max-width: 87vw;
+        max-height: 100vw;
+        padding: 3vw;
+        font-family: 'Atkinson Hyperlegible';
+        font-size: 4.5vw;
+    }
+    #nt_arrow {
+        position: absolute;
+        top: -28vw;
+        left: -6.5vw;
+        width: 9vw;
+        height: auto;
+        transform: rotate(180deg);
+    }
 }

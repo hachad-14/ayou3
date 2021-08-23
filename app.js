@@ -18,11 +18,13 @@ $(document).ready(function() {
     console.log("test");
     document.getElementById("main-page").style.visibility = "hidden";
     document.getElementById("notesP").style.visibility = "visible";
+    document.getElementById("txtHolder").style.visibility = 'visible';
     document.body.style.backgroundColor = "#eeeef3";
     
     $("#n_arrow").click(function() {
       document.getElementById("main-page").style.visibility = "visible";
       document.getElementById("notesP").style.visibility = "hidden";
+      document.getElementById("txtHolder").style.visibility = 'hidden';
       document.body.style.backgroundColor = "#04003e";
     });
   });
