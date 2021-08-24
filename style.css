@@ -8,6 +8,7 @@
 body {
     height: 10vw;
     background-color: #000;
+    visibility: hidden;
 }
 
 @media only screen and (max-width: 575px) {
@@ -15,6 +16,7 @@ body {
         background-color: #04003e;
         height: 54vw;
         position: fixed;
+        visibility: visible;
         /*overflow: hidden;*/
     }
     #main-page {
@@ -152,11 +154,22 @@ body {
         border: 0.7vw solid #e94f57;
         border-radius: 50%;
     }
-    #s1s {
+    #crossS {
         position: absolute;
         top: 0;
-        left: 0;
-        visibility: visible;
+        left: 90vw;
+        font-size: 10vw;
+        visibility: hidden;
+        font-family: 'Syncopate';
+        z-index: 100;
+    }
+    #s1 > h2 {
+        position: absolute;
+        width: 101vw;
+        top: -21vw;
+        left: -6vw;
+        z-index: 20;
+        visibility: hidden;
     }
     #sLine {
         position: absolute;
@@ -181,12 +194,26 @@ body {
     #p6 > p {position: absolute;top: 788.8vw;left: 12vw;display: block;font-family: 'Atkinson Hyperlegible';font-size: 3vw;}
 
     #p1 > h2 {position: absolute;top: 172vw;left: 3vw;display: block;font-family: 'Atkinson Hyperlegible';font-size: 4.1vw;white-space: nowrap;}
-    #p2 > h2 {position: absolute;top: 301vw;left: 3vw;display: block;font-family: 'Atkinson Hyperlegible';font-size: 4.1vw;white-space: nowrap;}
-    #p3 > h2 {position: absolute;top: 475vw;left: 3vw;display: block;font-family: 'Atkinson Hyperlegible';font-size: 4.1vw;white-space: nowrap;}
-    #p4 > h2 {position: absolute;top: 604vw;left: 3vw;display: block;font-family: 'Atkinson Hyperlegible';font-size: 4.1vw;white-space: nowrap;}
-    #p5 > h2 {position: absolute;top: 759vw;left: 3vw;display: block;font-family: 'Atkinson Hyperlegible';font-size: 4.1vw;white-space: nowrap;}
-    #p6 > h2 {position: absolute;top: 887vw;left: 3vw;display: block;font-family: 'Atkinson Hyperlegible';font-size: 4.1vw;white-space: nowrap;}
+    #p2 > h2 {position: absolute;top: 308vw;left: 3vw;display: block;font-family: 'Atkinson Hyperlegible';font-size: 4.1vw;white-space: nowrap;}
+    #p3 > h2 {position: absolute;top: 483vw;left: 3vw;display: block;font-family: 'Atkinson Hyperlegible';font-size: 4.1vw;white-space: nowrap;}
+    #p4 > h2 {position: absolute;top: 610vw;left: 3vw;display: block;font-family: 'Atkinson Hyperlegible';font-size: 4.1vw;white-space: nowrap;}
+    #p5 > h2 {position: absolute;top: 765vw;left: 3vw;display: block;font-family: 'Atkinson Hyperlegible';font-size: 4.1vw;white-space: nowrap;}
+    #p6 > h2 {position: absolute;top: 893vw;left: 3vw;display: block;font-family: 'Atkinson Hyperlegible';font-size: 4.1vw;white-space: nowrap;}
+    
+    #p1 > h3 {position: absolute;top: 163vw;left: 3vw;display: block;font-family: 'Atkinson Hyperlegible';font-size: 4.1vw;white-space: nowrap;}
+    #p2 > h3 {position: absolute;top: 300vw;left: 3vw;display: block;font-family: 'Atkinson Hyperlegible';font-size: 4.1vw;white-space: nowrap;}
+    #p3 > h3 {position: absolute;top: 474vw;left: 3vw;display: block;font-family: 'Atkinson Hyperlegible';font-size: 4.1vw;white-space: nowrap;}
+    #p4 > h3 {position: absolute;top: 602vw;left: 3vw;display: block;font-family: 'Atkinson Hyperlegible';font-size: 4.1vw;white-space: nowrap;}
+    #p5 > h3 {position: absolute;top: 757vw;left: 3vw;display: block;font-family: 'Atkinson Hyperlegible';font-size: 4.1vw;white-space: nowrap;}
+    #p6 > h3 {position: absolute;top: 885vw;left: 3vw;display: block;font-family: 'Atkinson Hyperlegible';font-size: 4.1vw;white-space: nowrap;}
 
+    #p1 > h4 {position: absolute;top: 172vw;left: 29vw;display: block;font-family: 'Atkinson Hyperlegible';font-size: 4.1vw;white-space: nowrap; font-weight: 1; opacity: 0.8;}
+    #p2 > h4 {position: absolute;top: 308vw;left: 29vw;display: block;font-family: 'Atkinson Hyperlegible';font-size: 4.1vw;white-space: nowrap; font-weight: 1; opacity: 0.8;}
+    #p3 > h4 {position: absolute;top: 483vw;left: 29vw;display: block;font-family: 'Atkinson Hyperlegible';font-size: 4.1vw;white-space: nowrap; font-weight: 1; opacity: 0.8;}
+    #p4 > h4 {position: absolute;top: 610vw;left: 29vw;display: block;font-family: 'Atkinson Hyperlegible';font-size: 4.1vw;white-space: nowrap; font-weight: 1; opacity: 0.8;}
+    #p5 > h4 {position: absolute;top: 765vw;left: 29vw;display: block;font-family: 'Atkinson Hyperlegible';font-size: 4.1vw;white-space: nowrap; font-weight: 1; opacity: 0.8;}
+    #p6 > h4 {position: absolute;top: 893vw;left: 29vw;display: block;font-family: 'Atkinson Hyperlegible';font-size: 4.1vw;white-space: nowrap; font-weight: 1; opacity: 0.8;}
+    
     #likes {
         position: absolute;
         top: 190vw;
@@ -239,9 +266,6 @@ body {
         z-index: 10;
     }
     #heart {
-        position: absolute;
-        top: 163vw;
-        left: 2vw;
         width: 10vw;
         -webkit-filter: drop-shadow(1.2px 1.2px 0 black)
                 drop-shadow(-1.2px 1.2px 0 black)
