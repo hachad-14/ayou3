@@ -4,11 +4,36 @@ $(document).ready(function() {
   $("#s1").click(function() {
     $('#s1 h2').css('visibility', 'visible');
     $('#crossS').css('visibility', 'visible');
+    document.body.style.position = "fixed"; 
   });
   $('#crossS').click(function() {
     $('#s1 h2').css('visibility', 'hidden');
     $('#crossS').css('visibility', 'hidden');
+    document.body.style.position = "absolute"; 
   });
+
+  $("#s2").click(function() {
+    $('#s2 h2').css('visibility', 'visible');
+    $('#cross2').css('visibility', 'visible');
+    document.body.style.position = "fixed"; 
+  });
+  $('#cross2').click(function() {
+    $('#s2 h2').css('visibility', 'hidden');
+    $('#cross2').css('visibility', 'hidden');
+    document.body.style.position = "absolute"; 
+  });
+
+  $("#s3").click(function() {
+    $('#s1 h2').css('visibility', 'visible');
+    $('#crossS').css('visibility', 'visible');
+    document.body.style.position = "fixed"; 
+  });
+  $("#s4").click(function() {
+    $('#s1 h2').css('visibility', 'visible');
+    $('#crossS').css('visibility', 'visible');
+    document.body.style.position = "fixed"; 
+  });
+
 
 
 

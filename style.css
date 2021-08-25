@@ -14,7 +14,11 @@ body {
 @media only screen and (max-width: 575px) {
     body {
         background-color: #04003e;
-        height: 54vw;
+        width: 100%;
+        height: 100%;
+        margin: 0px;
+        padding: 0px;
+        overflow-x: hidden; 
         position: fixed;
         visibility: visible;
         /*overflow: hidden;*/
@@ -154,27 +158,20 @@ body {
         border: 0.7vw solid #e94f57;
         border-radius: 50%;
     }
-    #crossS {
-        position: absolute;
-        top: 0;
-        left: 90vw;
-        font-size: 10vw;
-        visibility: hidden;
-        font-family: 'Syncopate';
-        z-index: 100;
-    }
-    #s1 > h2 {
-        position: absolute;
-        width: 101vw;
-        top: -21vw;
-        left: -6vw;
-        z-index: 20;
-        visibility: hidden;
-    }
+    #crossS {position: absolute;top: 0;left: 90vw;font-size: 10vw;visibility: hidden;font-family: 'Syncopate';z-index: 100;}
+    #cross2 {position: absolute;top: 0;left: 90vw;font-size: 10vw;visibility: hidden;font-family: 'Syncopate';z-index: 100;}
+    #cross3 {position: absolute;top: 0;left: 90vw;font-size: 10vw;visibility: hidden;font-family: 'Syncopate';z-index: 100;}
+    #cross4 {position: absolute;top: 0;left: 90vw;font-size: 10vw;visibility: hidden;font-family: 'Syncopate';z-index: 100;}
+
+    #s1 > h2 {position: absolute;width: 101vw;top: -21vw;left: -6vw;z-index: 20;visibility: hidden;}
+    #s2 > h2 {position: absolute;width: 101vw;top: -21vw;left: -6vw;z-index: 20;visibility: hidden;}
+    #s3 > h2 {position: absolute;width: 101vw;top: -21vw;left: -6vw;z-index: 20;visibility: hidden;}
+    #s4 > h2 {position: absolute;width: 101vw;top: -21vw;left: -6vw;z-index: 20;visibility: hidden;}
+
     #sLine {
         position: absolute;
         top: 45vw;
-        width: 100vw;
+        width: 99vw;
         height: 1px;
         background-color: #000;
         opacity: 0.1;
@@ -207,12 +204,19 @@ body {
     #p5 > h3 {position: absolute;top: 757vw;left: 3vw;display: block;font-family: 'Atkinson Hyperlegible';font-size: 4.1vw;white-space: nowrap;}
     #p6 > h3 {position: absolute;top: 885vw;left: 3vw;display: block;font-family: 'Atkinson Hyperlegible';font-size: 4.1vw;white-space: nowrap;}
 
-    #p1 > h4 {position: absolute;top: 172vw;left: 29vw;display: block;font-family: 'Atkinson Hyperlegible';font-size: 4.1vw;white-space: nowrap; font-weight: 1; opacity: 0.8;}
-    #p2 > h4 {position: absolute;top: 308vw;left: 29vw;display: block;font-family: 'Atkinson Hyperlegible';font-size: 4.1vw;white-space: nowrap; font-weight: 1; opacity: 0.8;}
-    #p3 > h4 {position: absolute;top: 483vw;left: 29vw;display: block;font-family: 'Atkinson Hyperlegible';font-size: 4.1vw;white-space: nowrap; font-weight: 1; opacity: 0.8;}
-    #p4 > h4 {position: absolute;top: 610vw;left: 29vw;display: block;font-family: 'Atkinson Hyperlegible';font-size: 4.1vw;white-space: nowrap; font-weight: 1; opacity: 0.8;}
-    #p5 > h4 {position: absolute;top: 765vw;left: 29vw;display: block;font-family: 'Atkinson Hyperlegible';font-size: 4.1vw;white-space: nowrap; font-weight: 1; opacity: 0.8;}
-    #p6 > h4 {position: absolute;top: 893vw;left: 29vw;display: block;font-family: 'Atkinson Hyperlegible';font-size: 4.1vw;white-space: nowrap; font-weight: 1; opacity: 0.8;}
+    #p1 > h4 {position: absolute;top: 172vw;left: 3vw;font-family: 'Atkinson Hyperlegible';font-size: 4.1vw;width: 98vw;font-weight: 1; opacity: 0.8;}
+    #p2 > h4 {position: absolute;top: 308vw;left: 3vw;font-family: 'Atkinson Hyperlegible';font-size: 4.1vw;width: 98vw;font-weight: 1; opacity: 0.8;}
+    #p3 > h4 {position: absolute;top: 483vw;left: 3vw;font-family: 'Atkinson Hyperlegible';font-size: 4.1vw;width: 95vw;font-weight: 1; opacity: 0.8;}
+    #p4 > h4 {position: absolute;top: 610vw;left: 3vw;font-family: 'Atkinson Hyperlegible';font-size: 4.1vw;width: 95vw;font-weight: 1; opacity: 0.8;}
+    #p5 > h4 {position: absolute;top: 765vw;left: 3vw;font-family: 'Atkinson Hyperlegible';font-size: 4.1vw;width: 95vw;font-weight: 1; opacity: 0.8;}
+    #p6 > h4 {position: absolute;top: 893vw;left: 3vw;font-family: 'Atkinson Hyperlegible';font-size: 4.1vw;width: 95vw;font-weight: 1; opacity: 0.8; padding-bottom: 10vw;}
+
+    #p1 > h5 {position: absolute;top: 46vw;left: 2vw;padding: 3.8vw;background-color: #000;border-radius: 30vw;}
+    #p2 > h5 {position: absolute;top: 190vw;left: 2vw;padding: 3.8vw;background-color: #000;border-radius: 30vw;}
+    #p3 > h5 {position: absolute;top: 335vw;left: 2vw;padding: 3.8vw;background-color: #000;border-radius: 30vw;}
+    #p4 > h5 {position: absolute;top: 505vw;left: 2vw;padding: 3.8vw;background-color: #000;border-radius: 30vw;}
+    #p5 > h5 {position: absolute;top: 640vw;left: 2vw;padding: 3.8vw;background-color: #000;border-radius: 30vw;}
+    #p6 > h5 {position: absolute;top: 785vw;left: 2vw;padding: 3.8vw;background-color: #000;border-radius: 30vw;}
     
     #likes {
         position: absolute;
@@ -226,42 +230,42 @@ body {
     #pm1 {
         position: absolute;
         top: 55vw;
-        width: 100vw;
+        width: 101vw;
         height: auto;
         z-index: 10;
     }
     #pm2 {
         position: absolute;
         top: 200vw;
-        width: 100vw;
+        width: 101vw;
         height: auto;
         z-index: 10;
     }
     #pm3 {
         position: absolute;
         top: 345vw;
-        width: 100vw;
+        width: 101vw;
         height: auto;
         z-index: 10;
     }
     #pm4 {
         position: absolute;
         top: 515vw;
-        width: 100vw;
+        width: 101vw;
         height: auto;
         z-index: 10;
     }
     #pm5 {
         position: absolute;
         top: 650vw;
-        width: 100vw;
+        width: 101vw;
         height: auto;
         z-index: 10;
     }
     #pm6 {
         position: absolute;
         top: 795vw;
-        width: 100vw;
+        width: 101vw;
         height: auto;
         z-index: 10;
     }
