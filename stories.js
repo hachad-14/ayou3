@@ -24,14 +24,25 @@ $(document).ready(function() {
   });
 
   $("#s3").click(function() {
-    $('#s1 h2').css('visibility', 'visible');
-    $('#crossS').css('visibility', 'visible');
+    $('#s3 h2').css('visibility', 'visible');
+    $('#cross3').css('visibility', 'visible');
     document.body.style.position = "fixed"; 
   });
+  $('#cross3').click(function() {
+    $('#s3 h2').css('visibility', 'hidden');
+    $('#cross3').css('visibility', 'hidden');
+    document.body.style.position = "absolute"; 
+  });
+
   $("#s4").click(function() {
-    $('#s1 h2').css('visibility', 'visible');
-    $('#crossS').css('visibility', 'visible');
+    $('#s4 h2').css('visibility', 'visible');
+    $('#cross4').css('visibility', 'visible');
     document.body.style.position = "fixed"; 
+  });
+  $('#cross4').click(function() {
+    $('#s4 h2').css('visibility', 'hidden');
+    $('#cross4').css('visibility', 'hidden');
+    document.body.style.position = "absolute"; 
   });
 
 

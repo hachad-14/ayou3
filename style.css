@@ -285,7 +285,7 @@ body {
     }
     #n_arrow {
         position: absolute;
-        top: 2vw;
+        top: 0vw;
         left: 0vw;
         width: 9vw;
         height: auto;
@@ -369,14 +369,14 @@ body {
         visibility: hidden;
         position: absolute;
         padding: 80vw 43.5vw;
-        top: 30vw;
+        top: 25vw;
         left: 6.5vw;
         border-radius: 5vw;
         opacity: 1;
     }
     #noteTxt {
-        overflow-wrap: break-word;
-        word-wrap: break-word;
+        text-align: left;
+        white-space: pre-wrap;
         position: absolute;
         left: 0;
         top: 1vw;
@@ -388,7 +388,7 @@ body {
     }
     #nt_arrow {
         position: absolute;
-        top: -28vw;
+        top: -23vw;
         left: -6.5vw;
         width: 9vw;
         height: auto;
