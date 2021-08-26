@@ -20,7 +20,7 @@ body {
         padding: 0px;
         position: fixed;
         visibility: visible;
-        overflow: hidden;
+        overflow-x: hidden;
     }
     #main-page {
         visibility: visible;
