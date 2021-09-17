@@ -1,7 +1,6 @@
 $(document).ready(function() {
   
   $("#insta").click(function() {
-    console.log("test");
     document.getElementById("main-page").style.visibility = "hidden";
     document.getElementById("ayou_gram").style.visibility = "visible";
     document.body.style.backgroundColor = "#fff";
@@ -15,7 +14,6 @@ $(document).ready(function() {
     });
   });
   $("#notes").click(function() {
-    console.log("test");
     document.getElementById("main-page").style.visibility = "hidden";
     document.getElementById("notesP").style.visibility = "visible";
     document.getElementById("txtHolder").style.visibility = 'visible';
@@ -26,6 +24,26 @@ $(document).ready(function() {
       document.getElementById("notesP").style.visibility = "hidden";
       document.getElementById("txtHolder").style.visibility = 'hidden';
       document.body.style.backgroundColor = "#04003e";
+    });
+  });
+  $("#only").click(function() {
+    document.getElementById("main-page").style.visibility = "hidden";
+    document.getElementById("onlyAyou").style.visibility = "visible";
+    document.getElementById("all").style.visibility = "visible";
+    document.body.style.backgroundColor = "#eeeef3";
+    document.body.style.position = "relative"
+    document.body.style.margin = "auto"
+    document.body.style.padding = "auto"
+    document.body.style.height = "auto"
+    
+    $("#oa_arrow").click(function() {
+      document.getElementById("main-page").style.visibility = "visible";
+      document.getElementById("onlyAyou").style.visibility = "hidden";
+      document.getElementById("all").style.visibility = "hidden";
+      document.body.style.backgroundColor = "#04003e";
+      document.body.style.position = "fixed"
+      document.body.style.margin = "0vw"
+      document.body.style.padding = "0vw"
     });
   });
 });

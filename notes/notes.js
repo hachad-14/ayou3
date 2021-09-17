@@ -17,6 +17,11 @@ $(document).ready(function() {
         document.getElementById("noteTxt").innerHTML = "A venir..."
 
     });
+    $("#forthF").click(function() {
+        delete_note_page();
+        get_nt_bod();
+        document.getElementById("noteTxt").innerHTML = "Bonsoir mon amour, me revoila à réecrire pour 5 beaux mois, le temps passe vite, et je crois qu'on en a pleinement profité. 5 merveilleux mois, ou j'ai appris beaucoup de choses; comment t'aimer, te rendre heureuse, te rendre belle. Je ne veux plus passer un seul jour loin de toi, j'aime sentir ton souffle sur mon coup pendant nos câlins, ton côrps se resserer contre le mien, t'entendre rigoler à nos blagues bofi bof. Comme je te le dis, chaque jour je planifie notre avenir et je ne me vois pas sans toi. Tu es la personne qu’il me faut et je veux passer le rester de ma vie à tes côtés, dans notre petit paradis, et si tu n'es pas là, alors je refuse d'y être. J’espère que tu sais à quel point je t’aime et à quel point tu me combles chaque jour de bonheur. Tu es la plus belle personne que je connaisse. Je t’admire et je serais toujours là pour toi. Tu es le soleil qui illumine mes jours. J’ai de la chance d’être l’homme qui partage ta vie. Vivement la beauté de la lune ce soir."
+    });
     $("#nt_arrow").click(function() {
         get_note_page();
         delete_nt_bod();
