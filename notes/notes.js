@@ -38,8 +38,10 @@ $(document).ready(function() {
     }
     function get_nt_bod() {
         document.getElementById("ntBod").style.visibility = 'visible';
+        document.body.style.position = "relative"
     }
     function delete_nt_bod() {
         document.getElementById("ntBod").style.visibility = 'hidden';
+        document.body.style.position = "fixed"
     }
 }); 
