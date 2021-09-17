@@ -30,6 +30,8 @@ $(document).ready(function() {
     document.getElementById("main-page").style.visibility = "hidden";
     document.getElementById("onlyAyou").style.visibility = "visible";
     document.getElementById("all").style.visibility = "visible";
+    document.getElementById("oa_arrow").style.visibility = "visible";
+      document.getElementById("all").style.visibility = "visible";
     document.body.style.backgroundColor = "#eeeef3";
     document.body.style.position = "relative"
     document.body.style.margin = "auto"
@@ -39,6 +41,8 @@ $(document).ready(function() {
     $("#oa_arrow").click(function() {
       document.getElementById("main-page").style.visibility = "visible";
       document.getElementById("onlyAyou").style.visibility = "hidden";
+      document.getElementById("all").style.visibility = "hidden";
+      document.getElementById("oa_arrow").style.visibility = "hidden";
       document.getElementById("all").style.visibility = "hidden";
       document.body.style.backgroundColor = "#04003e";
       document.body.style.position = "fixed"
