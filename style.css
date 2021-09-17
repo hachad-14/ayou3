@@ -530,6 +530,7 @@ body {
     }
     #namebox {
         position: absolute;
+        padding: 0.5vw 1vw;
         top: -23vw;
         left: 20vw;
     }
@@ -542,6 +543,7 @@ body {
     }
     #commentbox {
         position: absolute;
+        padding: 0.5vw 1vw;
         top: -3vw;
         left: 20vw;
     }
