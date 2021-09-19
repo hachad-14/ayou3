@@ -456,8 +456,8 @@ body {
         font-size: 4.5vw;
         font-weight: 550;
     }
-    #all li {
-        margin-left: 1vw;
+    li {
+        margin-left: 2vw;
         margin-top: 0vw;
         margin-bottom: 0vw;
         font-family: 'Roboto';
@@ -472,7 +472,8 @@ body {
         list-style: none;
     }
     #all img{
-        width: 100vw;
+        width: 100%;
+        margin-left: 0 !important;
         height: 100vw; 
         object-fit: cover;
     }
