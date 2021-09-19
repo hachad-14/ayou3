@@ -1,5 +1,6 @@
 $(document).ready(function() {
     $("#post_i").click(function() {
+      document.body.style.overflowY = "hidden";
       document.getElementById("all").style.visibility = "hidden";
       document.getElementById("postPage").style.visibility = "visible";
       document.getElementById("oa_arrow").style.visibility = "hidden";
@@ -7,11 +8,12 @@ $(document).ready(function() {
       document.body.style.position = "fixed"
     });
     $("#pg_arrow").click(function() {
-        document.getElementById("all").style.visibility = "visible";
-        document.getElementById("postPage").style.visibility = "hidden";
-        document.getElementById("oa_arrow").style.visibility = "visible";
-        document.getElementById("pg_arrow").style.visibility = "hidden";
-        document.body.style.position = "relative"
+      document.body.style.overflowY = "scroll";
+      document.getElementById("all").style.visibility = "visible";
+      document.getElementById("postPage").style.visibility = "hidden";
+      document.getElementById("oa_arrow").style.visibility = "visible";
+      document.getElementById("pg_arrow").style.visibility = "hidden";
+      document.body.style.position = "relative"
     });
 
     var ImgName, ImgUrl, comment, order;

@@ -26,17 +26,14 @@ function addItemsToList(name,com,user) {
     ul.appendChild(_name);
     ul.appendChild(_com);
 }
-function test() {
-    firebase.database().ref('Pictures').orderByChild('Order').once('value',function test(snapshot) {
+firebase.database().ref('Pictures').orderByChild('Order').once('value',function test(snapshot) {
     snapshot.forEach (
         function(childSnapshot) {   
             console.log( childSnapshot.val().Link);
-
             var ul = document.getElementById('list');
             var header = document.createElement('p');
             header.innerHTML =  childSnapshot.val().Name;
             ul.appendChild(header);
-
             let name = '';
             let user = '';
             let com = childSnapshot.val().Commentaire;
@@ -45,5 +42,3 @@ function test() {
         }
     );
 });
-}
-test();
