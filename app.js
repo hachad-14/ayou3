@@ -1,12 +1,14 @@
 $(document).ready(function() {
   
   $("#insta").click(function() {
+    get_overflow();
     document.getElementById("main-page").style.visibility = "hidden";
     document.getElementById("ayou_gram").style.visibility = "visible";
     document.body.style.backgroundColor = "#fff";
     document.body.style.position = "absolute"; 
     
     $("#ag_arrow").click(function() {
+      rem_overflow();
       document.getElementById("main-page").style.visibility = "visible";
       document.getElementById("ayou_gram").style.visibility = "hidden";
       document.body.style.backgroundColor = "#04003e";
@@ -27,6 +29,7 @@ $(document).ready(function() {
     });
   });
   $("#only").click(function() {
+    get_overflow();
     document.getElementById("main-page").style.visibility = "hidden";
     document.getElementById("onlyAyou").style.visibility = "visible";
     document.getElementById("all").style.visibility = "visible";
@@ -39,6 +42,7 @@ $(document).ready(function() {
     document.body.style.height = "auto"
     
     $("#oa_arrow").click(function() {
+      rem_overflow();
       document.getElementById("main-page").style.visibility = "visible";
       document.getElementById("onlyAyou").style.visibility = "hidden";
       document.getElementById("all").style.visibility = "hidden";
@@ -50,4 +54,10 @@ $(document).ready(function() {
       document.body.style.padding = "0vw"
     });
   });
+  function get_overflow() {
+    document.body.style.overflowY = "scroll";
+  }
+  function rem_overflow() {
+    document.body.style.overflowY = "hidden";
+  }
 });
