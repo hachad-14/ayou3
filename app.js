@@ -29,7 +29,7 @@ $(document).ready(function() {
     });
   });
   $("#only").click(function() {
-    //get_overflow();
+    get_overflow();
     document.getElementById("main-page").style.visibility = "hidden";
     document.getElementById("onlyAyou").style.visibility = "visible";
     document.getElementById("all").style.visibility = "visible";
@@ -42,7 +42,7 @@ $(document).ready(function() {
     //document.body.style.height = "auto"
     
     $("#oa_arrow").click(function() {
-      //rem_overflow();
+      rem_overflow();
       document.getElementById("all").style.visibility = "hidden";
       document.getElementById("onlyAyou").style.visibility = "hidden";
       document.getElementById("main-page").style.visibility = "visible";

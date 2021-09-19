@@ -1,5 +1,6 @@
 $(document).ready(function() {
     $("#post_i").click(function() {
+      $("html, body").animate({ scrollTop: 0 }, "fast");
       document.body.style.overflowY = "hidden";
       document.getElementById("all").style.visibility = "hidden";
       document.getElementById("postPage").style.visibility = "visible";
