@@ -10,6 +10,9 @@ body {
 }
 
 @media only screen and (max-width: 575px) {
+    html {
+        overflow-x: hidden;
+    }
     body {
         background-color: #04003e;
         width: 100%;
@@ -473,7 +476,7 @@ body {
         list-style: none;
     }
     #all img{
-        width: 102vw;
+        width: 100vw;
         margin-left: 0 !important;
         height: 100vw; 
         object-fit: cover;
