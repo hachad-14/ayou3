@@ -24,7 +24,6 @@ body {
         padding: 0px;
         overflow-x: hidden !important; 
         position: fixed;
-        visibility: visible;
         overflow-y: hidden;
         -webkit-overflow-scrolling: touch;
 
@@ -113,7 +112,7 @@ body {
         font-family: 'Atkinson Hyperlegible';
         display: block;
     }
-    #signi {
+    #game {
         position: absolute;
         background-color: #000;
         border-radius: 5vw;
@@ -122,11 +121,29 @@ body {
         top: 67.5vw;
         left: 40vw;
     }
+    #gtxt h1 {
+        position: absolute;
+        color: #fff;
+        top: 85vw;
+        left: 41.5vw;
+        font-size: 4vw;
+        font-family: 'Atkinson Hyperlegible';
+        display: block;
+    }
+    #signi {
+        position: absolute;
+        background-color: #000;
+        border-radius: 5vw;
+        width: 16.5vw;
+        height: 16.5vw;
+        top: 67.5vw;
+        left: 71vw;
+    }
     #sig h1 {
         position: absolute;
         color: #fff;
         top: 85vw;
-        left: 36vw;
+        left: 72.5vw;
         font-size: 4vw;
         font-family: 'Atkinson Hyperlegible';
         display: block;
@@ -382,7 +399,7 @@ body {
     }
     #ncForm {
         position: fixed;
-        bottom: 0.2vw;
+        bottom: 0vw;
         left: -1vw;
         padding: 5vw 51vw;
         background-color: #f5f5f5;
@@ -395,9 +412,9 @@ body {
         font-family: 'Atkinson Hyperlegible';
         color: #616161;
     }
-    #firstF h1, #secondF h1, #thirdF h1, #forthF h1{position: absolute;top:4vw;left: 4vw;font-family: 'Atkinson Hyperlegible';font-size: 4.5vw;letter-spacing: -0.15vw;}
-    #firstF p, #secondF p, #thirdF p, #forthF p{position: absolute;top:9.3vw;left: 4.2vw;font-family: 'Atkinson Hyperlegible';color: #616161; font-size: 4vw;}
-    #firstF h2, #secondF h2, #thirdF h2, #forthF h2{position: absolute;left:0vw;top: 18vw;padding: 0.5px 45vw;background-color: #000; opacity: 0.1;}
+    #firstF h1, #secondF h1, #thirdF h1, #forthF h1, #fifthF h1{position: absolute;top:4vw;left: 4vw;font-family: 'Atkinson Hyperlegible';font-size: 4.5vw;letter-spacing: -0.15vw;}
+    #firstF p, #secondF p, #thirdF p, #forthF p, #fifthF p{position: absolute;top:9.3vw;left: 4.2vw;font-family: 'Atkinson Hyperlegible';color: #616161; font-size: 4vw;}
+    #firstF h2, #secondF h2, #thirdF h2, #forthF h2, #fifthF h2{position: absolute;left:0vw;top: 18vw;padding: 0.5px 45vw;background-color: #000; opacity: 0.1;}
 
     #firstF {
         position: absolute;
@@ -423,6 +440,13 @@ body {
     #forthF {
         position: absolute;
         top: 53vw;
+        left: 1vw;
+        padding: 10vw 45vw;
+        border-radius: 3vw;
+    }
+    #fifthF {
+        position: absolute;
+        top: 71vw;
         left: 1vw;
         padding: 10vw 45vw;
         border-radius: 3vw;
@@ -599,4 +623,27 @@ body {
     /*--------------------------------------------------------------------------------------------------------------------*/
     /*--------------------------------------------------------------------------------------------------------------------*/
     /*--------------------------------------------------------------------------------------------------------------------*/
+    div #gameP {
+        visibility: hidden;
+    }
+    #gp_arrow {
+        position: absolute;
+        top: 2vw;
+        left: 0vw;
+        width: 9vw;
+        height: auto;
+        transform: rotate(180deg);
+    }
+    #newplayer{
+        position: absolute;
+        margin-top: -150vw;
+        left: 35vw;
+    }
+    #playerNameInput {
+        content: 'trest';
+        position: absolute;
+        margin-top: -140vw;
+        left: 14vw;
+        padding: 0.5vw 5vw;
+    }
 }

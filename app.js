@@ -49,6 +49,22 @@ $(document).ready(function() {
       document.body.style.position = "fixed"
     });
   });
+  $("#game").click(function() {
+    get_overflow();
+    document.getElementById("main-page").style.visibility = "hidden";
+    document.getElementById("gameP").style.visibility = "visible";
+    document.body.style.backgroundColor = "#eeeef3";
+    document.body.style.position = "relative"
+
+    $("#gp_arrow").click(function() {
+      $('html,body').scrollTop(0);
+      rem_overflow();
+      document.getElementById("gameP").style.visibility = "hidden";
+      document.getElementById("main-page").style.visibility = "visible";
+      document.body.style.backgroundColor = "#04003e";
+      document.body.style.position = "fixed"
+    });
+  });
   function get_overflow() {
     document.body.style.overflowY = "scroll";
   }
