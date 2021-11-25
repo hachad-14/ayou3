@@ -13,9 +13,6 @@ body {
     header {
         height: auto;
     }
-    html {
-        overflow-y: hidden;
-    }
     body {
         background-color: #04003e;
         width: 100%;
