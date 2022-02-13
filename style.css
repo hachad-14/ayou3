@@ -5,38 +5,31 @@
 }
 
 body {
-    background-color: #000;
+    background-color: #fff;
     visibility: hidden;
 }
 
 @media only screen and (max-width: 575px) {
-    html {
-        overflow-x: hidden;
-    }
     header {
-        height: auto;
+        overflow: hidden;
     }
     body {
-        background-color: #04003e;
-        width: 100%;
-        height: auto;
         margin: 0px;
         padding: 0px;
-        overflow-x: hidden !important; 
+        overflow:auto;
+        overflow-x:hidden;
         position: fixed;
-        overflow-y: hidden;
         -webkit-overflow-scrolling: touch;
-
     }
     #main-page {
         visibility: visible;
     }
     #background {
-        opacity: 0.8;
+        opacity: 0.9999;
         background: #ccc; 
         width: 100vw;
         height: 185vw;
-        background-image: url(images/post8.jpeg);
+        background-image: url(images/photos/gallerie/6.jpg);
         background-size: cover;
         background-position: center center;
         background-repeat: no-repeat;
@@ -78,6 +71,7 @@ body {
         font-family: 'Atkinson Hyperlegible';
         display: block;
     }
+    #gl h2 {background-color: red;font-family: 'Poppins';position: absolute;width: 6vw;height: 6vw;top: 35vw;left: 53vw;border-radius: 50%;font-size: 4vw;color: #fff;text-align: center;text-align-last: center;z-index: 1;}
     #notes {
         position: absolute;
         width: 18.5vw;
@@ -94,6 +88,7 @@ body {
         font-family: 'Atkinson Hyperlegible';
         display: block;
     }
+    #txt h2 {background-color: red;font-family: 'Poppins';position: absolute;width: 6vw;height: 6vw;top: 35vw;left: 84vw;border-radius: 50%;font-size: 4vw;color: #fff;text-align: center;text-align-last: center;z-index: 1;}
     #only {
         position: absolute;
         background-color: #000;
@@ -125,12 +120,13 @@ body {
         position: absolute;
         color: #fff;
         top: 85vw;
-        left: 41.5vw;
+        left: 37.5vw;
         font-size: 4vw;
         font-family: 'Atkinson Hyperlegible';
         display: block;
     }
     #signi {
+        visibility: hidden;
         position: absolute;
         background-color: #000;
         border-radius: 5vw;
@@ -140,6 +136,7 @@ body {
         left: 71vw;
     }
     #sig h1 {
+        visibility: hidden;
         position: absolute;
         color: #fff;
         top: 85vw;
@@ -152,23 +149,34 @@ body {
     /*--------------------------------------------------------------------------------------------------------------------*/
     /*--------------------------------------------------------------------------------------------------------------------*/
     #ayou_gram {
+        z-index: 2;
         visibility: hidden;
     }
+    #aBbackground {
+        position: fixed;
+        top: 0vw;
+        padding: 7.5vw 50vw;
+        background-color: #fff;
+        z-index: 100;
+        border-bottom: 1px solid #b9b9b9;
+    }
     #ag_arrow {
-        position: absolute;
+        position: fixed;
         top: 2vw;
         left: 0vw;
         width: 9vw;
         height: auto;
         transform: rotate(180deg);
+        z-index: 100;
     }
     #abTitle {
-        position: absolute;
+        position: fixed;
         top: 2vw;
         left: 32vw;
         font-family: 'Satisfy';
         font-weight: bolder;
         font-size: 8vw;
+        z-index: 100;
     }
     #circles img{
         position: absolute;
@@ -352,7 +360,250 @@ body {
     /*--------------------------------------------------------------------------------------------------------------------*/
     /*--------------------------------------------------------------------------------------------------------------------*/
     /*--------------------------------------------------------------------------------------------------------------------*/
+    #photos {
+        z-index: 2;
+        visibility: hidden;
+    }
+    #g_arrow {
+        position: absolute;
+        top: 2vw;
+        left: 0vw;
+        width: 9vw;
+        height: auto;
+        transform: rotate(180deg);
+    }
+    #pTitle {
+        position: absolute;
+        top: 15vw;
+        left: 3vw;
+        font-family: 'Poppins';
+        font-size: 8vw;
+        letter-spacing: -0.6vw;
+        font-weight: bolder;
+    }
+    #pTitle h2 {
+        position: absolute;
+        padding: 0.15vw 50vw;
+        background-color: #000;
+        opacity: 0.1;
+    }
+    #pTitle h3 {
+        position: absolute;
+        top: 13.5vw;
+        font-family: 'Poppins';
+        font-size: 5vw;
+        letter-spacing: -0.3vw;
+        font-weight: bolder;
+        white-space: nowrap;
+    }
+    #aPhotos {
+        position: absolute;
+        top: 40vw;
+        left: 3vw;
+        height: 45vw;
+        width: 45vw;
+        background-color: #000;
+        border-radius: 2VW;
+    }
+    #aPhotos img {position: absolute;top: 0vw;left: 0vw;height: 45vw;width: 45vw;border-radius: 2vw;object-fit: cover;}
+    #aVideos {
+        position: absolute;
+        top: 40vw;
+        left: 52vw;
+        height: 45vw;
+        width: 45vw;
+        background-color: #000;
+        border-radius: 2VW;
+    }
+    #aPhotos h1, #aVideos h1 {position: absolute;top: 45vw;left: 0.8vw;font-family: 'Poppins';font-size: 4vw;letter-spacing: -0.3vw;font-weight: bolder;white-space: nowrap;opacity: 0.8;}
+    #aPhotos h4, #aVideos h4 {position: absolute;top: 50vw;left: 0.8vw;font-family: 'Poppins';font-size: 3.5vw;opacity: 0.6;}
+
+    #aVideos h3 {
+        position: absolute;
+        top: 60vw;
+        left: -50vw;
+        padding: 0.15vw 50vw;
+        background-color: #000;
+        opacity: 0.1;
+    }
+    #aPersTitle {
+        position: absolute;
+        top: 102vw;
+        left: 3vw;
+        font-family: 'Poppins';
+        font-size: 5.3vw;
+        letter-spacing: -0.3vw;
+        font-weight: bolder;
+        white-space: nowrap;
+    }
+    #aPers {
+        position: absolute;
+        top: 112vw;
+        left: 3vw;
+        height: 45vw;
+        width: 45vw;
+        border-radius: 2VW;
+    }
+    #aPers h2 img {position: absolute;top: 0vw;left: 0vw;object-fit: cover;height: 22vw;width: 22vw;border-radius: 2vw;}
+    #aPers h3 img {position: absolute;top: 0vw;left: 0vw;object-fit: cover;height: 22vw;width: 22vw;border-radius: 2vw;}
+    #aPers h5 img {position: absolute;top: 0vw;left: 0vw;object-fit: cover;height: 22vw;width: 22vw;border-radius: 2vw;}
+    #aPers h6 img {position: absolute;top: 0vw;left: 0vw;object-fit: cover;height: 22vw;width: 22vw;border-radius: 2vw;}
+    #aPers h2 {
+        position: absolute;
+        padding: 11vw;
+        background-color: #000;
+        border-radius: 2vw;
+        z-index: -1;
+    }
+    #aPers h3 {
+        position: absolute;
+        left: 23vw;
+        padding: 11vw;
+        background-color: #000;
+        border-radius: 2vw;
+        z-index: -1;
+    }
+    #aPers h5 {
+        position: absolute;
+        top: 23vw;
+        left: 0vw;
+        padding: 11vw;
+        background-color: #000;
+        border-radius: 2vw;
+        z-index: -1;
+    }
+    #aPers h6 {
+        position: absolute;
+        top: 23vw;
+        left: 23vw;
+        padding: 11vw;
+        background-color: #000;
+        border-radius: 2vw;
+        z-index: -1;
+    }
+    #aLieux {
+        position: absolute;
+        top: 112vw;
+        left: 52vw;
+        height: 45vw;
+        width: 45vw;
+        background-color: #000;
+        border-radius: 2VW;
+    }
+    #aPers h1, #aLieux h1 {position: absolute;top: 45vw;left: 0.8vw;font-family: 'Poppins';font-size: 4vw;letter-spacing: -0.3vw;font-weight: bolder;white-space: nowrap;opacity: 0.8;}
+    #aPers h4, #aLieux h4 {position: absolute;top: 50vw;left: 0.8vw;font-family: 'Poppins';font-size: 3.5vw;letter-spacing: -0.3vw;font-weight: bolder;white-space: nowrap;opacity: 0.6;}
+
+    #aLieux h3 {
+        position: absolute;
+        top: 60vw;
+        left: -50vw;
+        padding: 0.15vw 50vw;
+        background-color: #000;
+        opacity: 0.1;
+    }
+    #photos-page {
+        visibility: hidden;
+    }
+    #pp_arrow {
+        position: absolute;
+        top: 2vw;
+        left: 0vw;
+        width: 9vw;
+        height: auto;
+        transform: rotate(180deg);
+        z-index: 11;
+    }
+    #pg1 {z-index: 9; position: absolute;top: 14vw;left: 00vw;width: 33vw;height: 33vw;object-fit: cover;}
+    #pg2 {position: absolute;top: 14vw;left: 33.5vw;width: 33vw;height: 33vw;object-fit: cover;}
+    #pg3 {position: absolute;top: 14vw;left: 67vw;width: 33vw;height: 33vw;object-fit: cover;}
+    #pg4 {position: absolute;top: 47.5vw;left: 00vw;width: 33vw;height: 33vw;object-fit: cover;}
+    #pg5 {position: absolute;top: 47.5vw;left: 33.5vw;width: 33vw;height: 33vw;object-fit: cover;}
+    #pg6 {position: absolute;top: 47.5vw;left: 67vw;width: 33vw;height: 33vw;object-fit: cover;}
+    #pg7 {position: absolute;top: 81vw;left: 00vw;width: 33vw;height: 33vw;object-fit: cover;}
+    #pg8 {position: absolute;top: 81vw;left: 33.5vw;width: 33vw;height: 33vw;object-fit: cover;}
+    #pg9 {position: absolute;top: 81vw;left: 67vw;width: 33vw;height: 33vw;object-fit: cover;}
+    #pg10 {position: absolute;top: 114.5vw;left: 00vw;width: 33vw;height: 33vw;object-fit: cover;}
+
+    #pgPic1 h2{visibility: hidden;z-index: 11;position: absolute;top: 120vw;left: 1.5vw;margin: 0 auto;max-width: 100vw;padding: 12px;overflow-wrap: break-word;word-wrap: break-word;hyphens: auto;text-align: center;font-family: 'Poppins';color: white;font-size: 5vw;}
+    #pgPic2 h2{visibility: hidden;z-index: 11;position: absolute;top: 120vw;left: 1.5vw;margin: 0 auto;max-width: 100vw;padding: 12px;overflow-wrap: break-word;word-wrap: break-word;hyphens: auto;text-align: center;font-family: 'Poppins';color: white;font-size: 5vw;}
+    #pgPic3 h2{visibility: hidden;z-index: 11;position: absolute;top: 120vw;left: 1.5vw;margin: 0 auto;max-width: 100vw;padding: 12px;overflow-wrap: break-word;word-wrap: break-word;hyphens: auto;text-align: center;font-family: 'Poppins';color: white;font-size: 5vw;}
+    #pgPic4 h2{visibility: hidden;z-index: 11;position: absolute;top: 120vw;left: 9vw;margin: 0 auto;max-width: 100vw;padding: 12px;overflow-wrap: break-word;word-wrap: break-word;hyphens: auto;text-align: center;font-family: 'Poppins';color: white;font-size: 5vw;}
+    #pgPic5 h2{visibility: hidden;z-index: 11;position: absolute;top: 120vw;left: 1.5vw;margin: 0 auto;max-width: 100vw;padding: 12px;overflow-wrap: break-word;word-wrap: break-word;hyphens: auto;text-align: center;font-family: 'Poppins';color: white;font-size: 5vw;}
+    #pgPic6 h2{visibility: hidden;z-index: 11;position: absolute;top: 120vw;left: 1.5vw;margin: 0 auto;max-width: 100vw;padding: 12px;overflow-wrap: break-word;word-wrap: break-word;hyphens: auto;text-align: center;font-family: 'Poppins';color: white;font-size: 5vw;}
+    #pgPic7 h2{visibility: hidden;z-index: 11;position: absolute;top: 120vw;left: 1.5vw;margin: 0 auto;max-width: 100vw;padding: 12px;overflow-wrap: break-word;word-wrap: break-word;hyphens: auto;text-align: center;font-family: 'Poppins';color: white;font-size: 5vw;}
+    #pgPic8 h2{visibility: hidden;z-index: 11;position: absolute;top: 120vw;left: 1.5vw;margin: 0 auto;max-width: 100vw;padding: 12px;overflow-wrap: break-word;word-wrap: break-word;hyphens: auto;text-align: center;font-family: 'Poppins';color: white;font-size: 5vw;}
+    #pgPic9 h2{visibility: hidden;z-index: 11;position: absolute;top: 120vw;left: 1.5vw;margin: 0 auto;max-width: 100vw;padding: 12px;overflow-wrap: break-word;word-wrap: break-word;hyphens: auto;text-align: center;font-family: 'Poppins';color: white;font-size: 5vw;}
+    #pgPic10 h2{visibility: hidden;z-index: 11;position: absolute;top: 120vw;left: 9vw;margin: 0 auto;max-width: 100vw;padding: 12px;overflow-wrap: break-word;word-wrap: break-word;hyphens: auto;text-align: center;font-family: 'Poppins';color: white;font-size: 5vw;}
+  
+
+
+    #amis-page {
+        visibility: hidden;
+    }
+    #ap_arrow {
+        position: absolute;
+        top: 2vw;
+        left: 0vw;
+        width: 9vw;
+        height: auto;
+        transform: rotate(180deg);
+    }
+    #ppg_arrow {
+        visibility: hidden;
+        position: absolute;
+        top: 2vw;
+        left: 0vw;
+        width: 9vw;
+        height: auto;
+        transform: rotate(180deg);
+        z-index: 11;
+        filter: invert(100%);
+        -webkit-filter: drop-shadow(2px 2px 0 white)
+        drop-shadow(-1px 1px 0 white)
+        drop-shadow(1px -1px 0 white)
+        drop-shadow(-1px -1px 0 white);
+        filter: drop-shadow(1px 1px 0 white)
+        drop-shadow(-1px 1px 0 white)
+        drop-shadow(1px -1px 0 white)
+        drop-shadow(-1px -1px 0 white);
+    }
+    #aya img {position: absolute;top: 15vw;left: 7vw;width: 40vw;height: 40vw;border-radius: 2vw ;object-fit: cover;}
+    #aya h1 {position: absolute;width: 40vw;top: 55vw;left: 7vw;font-family: 'Poppins';font-size: 4vw;text-align: center;}
+    #tizou img {position: absolute;top: 15vw;left: 55vw;width: 40vw;height: 40vw;border-radius: 2vw ;object-fit: cover;}
+    #tizou h1 {position: absolute;width: 40vw;top: 55vw;left: 55vw;font-family: 'Poppins';font-size: 4vw;text-align: center;}
+    #saada img {position: absolute;top: 75vw;left: 7vw;width: 40vw;height: 40vw;border-radius: 2vw ;object-fit: cover;}
+    #saada h1 {position: absolute;width: 40vw;top: 115vw;left: 7vw;font-family: 'Poppins';font-size: 4vw;text-align: center;}
+    #saadh img {position: absolute;top: 75vw;left: 55vw;width: 40vw;height: 40vw;border-radius: 2vw ;object-fit: cover;}
+    #saadh h1 {position: absolute;width: 40vw;top: 115vw;left: 55vw;font-family: 'Poppins';font-size: 4vw;text-align: center;}
+    
+    #apImg {
+        position: absolute;
+        top: 140vw;
+        left: 0vw;
+        width: 100vw;
+    }
+    #ap-pic h2 {
+        position: absolute;
+        top: 200vw;
+        left: 0vw;
+        padding: 0vw 4vw;
+        font-family: 'Poppins';
+        font-size: 4vw;
+        text-align: center;
+    }   
+    #photos-page h1 {
+        position: absolute;
+        top: 152vw;
+        left: 34vw;
+        font-family: 'Poppins';
+        font-weight: bolder;
+        font-size: 3.2vw;
+    }
+    /*--------------------------------------------------------------------------------------------------------------------*/
+    /*--------------------------------------------------------------------------------------------------------------------*/
+    /*--------------------------------------------------------------------------------------------------------------------*/
     #notesP {
+        z-index: 2;
         visibility: hidden;
     }
     #n_arrow {
@@ -392,7 +643,7 @@ body {
         position: absolute;
         top: 45vw;
         left: 4vw;
-        padding: 60vw 46vw;
+        padding: 54vw 46vw;
         background-color: #fefefe;
         border: 1px solid #e2e2e2;
         border-radius: 3vw;
@@ -412,9 +663,9 @@ body {
         font-family: 'Atkinson Hyperlegible';
         color: #616161;
     }
-    #firstF h1, #secondF h1, #thirdF h1, #forthF h1, #fifthF h1{position: absolute;top:4vw;left: 4vw;font-family: 'Atkinson Hyperlegible';font-size: 4.5vw;letter-spacing: -0.15vw;}
-    #firstF p, #secondF p, #thirdF p, #forthF p, #fifthF p{position: absolute;top:9.3vw;left: 4.2vw;font-family: 'Atkinson Hyperlegible';color: #616161; font-size: 4vw;}
-    #firstF h2, #secondF h2, #thirdF h2, #forthF h2, #fifthF h2{position: absolute;left:0vw;top: 18vw;padding: 0.5px 45vw;background-color: #000; opacity: 0.1;}
+    #firstF h1, #secondF h1, #thirdF h1, #forthF h1, #fifthF h1, #sixthF h1{position: absolute;top:4vw;left: 4vw;font-family: 'Atkinson Hyperlegible';font-size: 4.5vw;letter-spacing: -0.15vw;}
+    #firstF p, #secondF p, #thirdF p, #forthF p, #fifthF p, #sixthF p{position: absolute;top:9.3vw;left: 4.2vw;font-family: 'Atkinson Hyperlegible';color: #616161; font-size: 4vw;}
+    #firstF h2, #secondF h2, #thirdF h2, #forthF h2, #fifthF h2, #sixthF h2{position: absolute;left:0vw;top: 18vw;padding: 0.5px 45vw;background-color: #000; opacity: 0.1;}
 
     #firstF {
         position: absolute;
@@ -447,6 +698,13 @@ body {
     #fifthF {
         position: absolute;
         top: 71vw;
+        left: 1vw;
+        padding: 10vw 45vw;
+        border-radius: 3vw;
+    }
+    #sixthF {
+        position: absolute;
+        top: 89vw;
         left: 1vw;
         padding: 10vw 45vw;
         border-radius: 3vw;
@@ -484,6 +742,7 @@ body {
     /*--------------------------------------------------------------------------------------------------------------------*/
     /*--------------------------------------------------------------------------------------------------------------------*/
     #onlyAyou {
+        z-index: 2;
         visibility: hidden;
     }
     #oa_arrow {
@@ -620,6 +879,28 @@ body {
         z-index: 10;
         filter: invert(36%) sepia(71%) saturate(5026%) hue-rotate(337deg) brightness(96%) contrast(105%);
     }
+    #userBar {
+        background-color: #eeeef3;
+        position: fixed;
+        bottom: 0vw;
+        padding: 6vw  50vw;
+        z-index: 0;
+        z-index: 10;
+        border-top: 1px solid #b9b9b9;
+    }
+    #oa_user {
+        position: absolute;
+        width: 8vw;
+        top: 2vw;
+        left: 30vw;
+
+    }
+    #oa_messages {
+        position: absolute;
+        width: 8vw;
+        top: 2vw;
+        left: 60vw;
+    }
     /*--------------------------------------------------------------------------------------------------------------------*/
     /*--------------------------------------------------------------------------------------------------------------------*/
     /*--------------------------------------------------------------------------------------------------------------------*/
@@ -628,22 +909,29 @@ body {
     }
     #gp_arrow {
         position: absolute;
-        top: 2vw;
+        top: 2.5vw;
         left: 0vw;
         width: 9vw;
         height: auto;
         transform: rotate(180deg);
+        z-index: 10;
     }
-    #newplayer{
+    #gp_bg {
         position: absolute;
-        margin-top: -150vw;
-        left: 35vw;
+        top: 0vw;
+        left: 0vw;
+        height: 200vw;
+        width: auto;
     }
-    #playerNameInput {
-        content: 'trest';
-        position: absolute;
-        margin-top: -140vw;
-        left: 14vw;
-        padding: 0.5vw 5vw;
-    }
+    #qb1 h1{position: absolute;top: 40vw;left: 10vw;height: 35vw;width: 80vw;background-color: #769d3b;border-radius: 5vw;border: 1px solid black;}
+    #qb2 h1{position: absolute;top: 80vw;left: 10vw;height: 35vw;width: 80vw;background-color: #769d3b;border-radius: 5vw;border: 1px solid black;}
+    #qb3 h1{position: absolute;top: 120vw;left: 10vw;height: 35vw;width: 80vw;background-color: #769d3b;border-radius: 5vw;border: 1px solid black;}
+
+    #qb1 h2 {position: absolute;top: 43vw;left: 40vw;font-family: 'Poppins';color: #fff;font-weight: bolder;}
+    #qb2 h2 {position: absolute;top: 83vw;left: 40vw;font-family: 'Poppins';color: #fff;font-weight: bolder;}
+    #qb3 h2 {position: absolute;top: 123vw;left: 40vw;font-family: 'Poppins';color: #fff;font-weight: bolder;}
+
+    #qb1 h3 {position: absolute;font-family: 'Poppins';top: 55vw;left: 20vw;}
+    #qb2 h3 {position: absolute;font-family: 'Poppins';top: 95vw;left: 17vw;}
+    #qb3 h3 {position: absolute;font-family: 'Poppins';top: 135vw;left: 23vw;}
 }

@@ -27,6 +27,11 @@ $(document).ready(function() {
         get_nt_bod();
         document.getElementById("noteTxt").innerHTML = "T'as vraiment cru que y'aurais pas de texte pour nos 6 mois grosse folle ? \nJe t'ai promis le paradis, et pour moi le paradis et construit de plein de petits attentions et détails, donc sois-en sûre qu'en aucun cas tu n'auras pas de textes pour notre moiniversaire, je suis entrain de retaper tout le texte oui.\nDepuis que je suis avec toi t'es le centre de mes pensées,Je pense à toi quand le soleil se lève. j’y pense pendant toute la journée et si parfois je rêve la nuit, c’est de toi et au bonheur qu'on a. Je t’aime mon coeur, avec toi je nage dans le bonheur, tu fais battre mon cœur, j’aime quand tu me souris, tu es mon paradis, je suis sûr que tu es la femme de ma vie. Joyeux 6 mois à la mère de nos futurs enfants, merci pour tout, le meilleur reste a venir.\nC'est toi ma lune ce soir."
     });
+    $("#sixthF").click(function() {
+        delete_note_page();
+        get_nt_bod();
+        document.getElementById("noteTxt").innerHTML = "Bonsoir ma valentine, c'est ton valentin.\nC'est la premier fois que je souhaite une bonne Saint Valentin à une fille, et la vérité j'ai aucune idée de ce que je dois dire, à part que je suis dans un autre  monde avec toi, tu éblouis ma vie, t'es litteralement mon soleil rayonnant, chaque jour je t'aime davantage, aujourd'hui plus qu'hier et bien moins que demain.\nJoyeuse Saint Valentin ma valentine ❤"
+    });
     $("#nt_arrow").click(function() {
         get_note_page();
         delete_nt_bod();
@@ -43,10 +48,10 @@ $(document).ready(function() {
     }
     function get_nt_bod() {
         document.getElementById("ntBod").style.visibility = 'visible';
-        document.body.style.position = "relative"
+        document.body.style.position = "absolute"
     }
     function delete_nt_bod() {
         document.getElementById("ntBod").style.visibility = 'hidden';
-        document.body.style.position = "fixed"
+        document.body.style.position = "relative"
     }
 }); 
