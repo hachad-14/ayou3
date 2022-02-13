@@ -923,6 +923,7 @@ body {
         height: 200vw;
         width: auto;
     }
+<<<<<<< HEAD
     #qb1 h1{position: absolute;top: 40vw;left: 10vw;height: 35vw;width: 80vw;background-color: #769d3b;border-radius: 5vw;border: 1px solid black;}
     #qb2 h1{position: absolute;top: 80vw;left: 10vw;height: 35vw;width: 80vw;background-color: #769d3b;border-radius: 5vw;border: 1px solid black;}
     #qb3 h1{position: absolute;top: 120vw;left: 10vw;height: 35vw;width: 80vw;background-color: #769d3b;border-radius: 5vw;border: 1px solid black;}
@@ -935,3 +936,6 @@ body {
     #qb2 h3 {position: absolute;font-family: 'Poppins';top: 95vw;left: 17vw;}
     #qb3 h3 {position: absolute;font-family: 'Poppins';top: 135vw;left: 23vw;}
 }
+=======
+}
+>>>>>>> e14e0cf83b1567f4ac0487ef1779c96118633539
