@@ -32,6 +32,11 @@ $(document).ready(function() {
         get_nt_bod();
         document.getElementById("noteTxt").innerHTML = "Bonsoir ma valentine, c'est ton valentin.\nC'est la premier fois que je souhaite une bonne Saint Valentin à une fille, et la vérité j'ai aucune idée de ce que je dois dire, à part que je suis dans un autre  monde avec toi, tu éblouis ma vie, t'es litteralement mon soleil rayonnant, chaque jour je t'aime davantage, aujourd'hui plus qu'hier et bien moins que demain.\nJoyeuse Saint Valentin ma valentine ❤"
     });
+    $("#seventhF").click(function() {
+        delete_note_page();
+        get_nt_bod();
+        document.getElementById("noteTxt").innerHTML = "Mais putain comment je ne peux pas y croire, wallah un futur moi serais venu chez moi et me dire écoute saad tu seras en couple avec aya et vous passerez plus d'un an, j'y aurais pas cru une seule petite seconde, Mais bon dieu en a décider et j'y peux rien mdr.\nAujourd'hui est un jour que j'attendais depuis 2 mois wallah, j'ai été rusé paceque même le jour de ton anniversaire j'ai réussi avoir un cadeau pour moi, très rusé le petit chat.\nJe sais pas comment on peut aimer aussi fort, mais je te jure que c'est indéscriptible ce que je ressens envers toi, c'est même magique, qu'est ce que c'est beau d'être avec toi matin midi soir.\nJe nous aimes tellement, merci pour tout salle folle, jamais ça ira mal entre nous.\n Je taime aller retour à lune"
+    });
     $("#nt_arrow").click(function() {
         get_note_page();
         delete_nt_bod();
