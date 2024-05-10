@@ -2,7 +2,7 @@ $(document).ready(function() {
     $("#firstF").click(function() {
         delete_note_page();
         get_nt_bod();
-        document.getElementById("noteTxt").innerHTML = "Ba bref, y'a deux semaines j'ecrivais le texte pour nos 2 mois, et me voila entrain d'écrire celui de nos trois merveilleux mois.Trois mois magnifiques, pleins de bonheur et d'amour, depuis trois mois tout à changé et continue aujourd'hui, je n'ai plus besoin de rêver car c'est toi mon rêve,avec toi, j'envisage un avenir, un vrai, et c'est la première fois que ça m'arrive, je ne voudrai pas te perdre en si bon chemin.Je te remercie de m'avoir fais d'ecouvrir l'amour, quant à moi, je te ferais découvrir les 4 coins du paradis.je t'aime mon coeur, à nos 3 mois, à nous. Ce soir c'est toi qui est belle, pas la lune."
+        document.getElementById("noteTxt").innerHTML = "Bah bref, y'a deux semaines j'ecrivais le texte pour nos 2 mois, et me voila entrain d'écrire celui de nos trois merveilleux mois.Trois mois magnifiques, pleins de bonheur et d'amour, depuis trois mois tout à changé et continue aujourd'hui, je n'ai plus besoin de rêver car c'est toi mon rêve,avec toi, j'envisage un avenir, un vrai, et c'est la première fois que ça m'arrive, je ne voudrai pas te perdre en si bon chemin.Je te remercie de m'avoir fais d'ecouvrir l'amour, quant à moi, je te ferais découvrir les 4 coins du paradis.je t'aime mon coeur, à nos 3 mois, à nous. Ce soir c'est toi qui est belle, pas la lune."
 
     });
     $("#secondF").click(function() {
@@ -14,7 +14,7 @@ $(document).ready(function() {
     $("#thirdF").click(function() {
         delete_note_page();
         get_nt_bod();
-        document.getElementById("noteTxt").innerHTML = "A venir...\n Hhhhh pas d'avenir 3chiri."
+        document.getElementById("noteTxt").innerHTML = "A venir...\n Hhhhh pas d'avenir 3chiri.\n Moi attendu mais rien venu."
 
     });
     $("#forthF").click(function() {
