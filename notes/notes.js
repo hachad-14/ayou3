@@ -14,7 +14,7 @@ $(document).ready(function() {
     $("#thirdF").click(function() {
         delete_note_page();
         get_nt_bod();
-        document.getElementById("noteTxt").innerHTML = "A venir..."
+        document.getElementById("noteTxt").innerHTML = "A venir...\n Hhhhh pas d'avenir 3chiri."
 
     });
     $("#forthF").click(function() {
