@@ -1,0 +1,213 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #fff;
+    visibility: hidden;
+}
+
+@media only screen and (max-width: 575px) {
+    header {
+        overflow: hidden;
+    }
+    body {
+        margin: 0px;
+        padding: 0px;
+        overflow:auto;
+        overflow-x:hidden;
+        position: fixed;
+        -webkit-overflow-scrolling: touch;
+        background-color: #141414;
+    }
+    #landing_page {
+        visibility: visible;
+    }
+    #lp_title h1 {
+        position: absolute;
+        top: 5vw;
+        left: 5vw;
+        height: 10vw;
+        width: 90vw;
+        color: #fff;
+        text-align: center;
+        font-family: 'Roboto';
+        font-size: 6vw;
+    }
+    #passcode_box {
+        position: absolute;
+        top: 35vw;
+        left: 5vw;
+        height: 125vw;
+        width: 90vw;
+        border-radius: 5vw;
+        background-color: #282828;
+    }
+    #pb {
+        position: absolute;
+        top: 5vw;
+        left: 10vw;
+        height: 15vw;
+        width: 70vw;
+        background-color: #141414;
+        border-radius:  5vw;
+        color: #d11212;
+        font-family: 'Orbitron';
+        text-align: center;
+        padding-top: 2.5vw;
+        overflow: hidden;
+    }
+    
+    #first_row h1 {position: absolute;top: 25vw;left: 7vw;height: 22vw;width: 22vw;background-color: #141414; border-radius: 4vw;text-align: center;padding-top: 5vw;color: #b9b9b9;font-family: 'Roboto';font-size: 10vw;}
+    #first_row h2 {position: absolute;top: 25vw;left: 34vw;height: 22vw;width: 22vw;background-color: #141414; border-radius: 4vw;text-align: center;padding-top: 5vw;color: #b9b9b9;font-family: 'Roboto';font-size: 10vw;}
+    #first_row h3 {position: absolute;top: 25vw;left: 61vw;height: 22vw;width: 22vw;background-color: #141414; border-radius: 4vw;text-align: center;padding-top: 5vw;color: #b9b9b9;font-family: 'Roboto';font-size: 10vw;}
+
+    #second_row h1 {position: absolute;top: 50vw;left: 7vw;height: 22vw;width: 22vw;background-color: #141414; border-radius: 4vw;text-align: center;padding-top: 5vw;color: #b9b9b9;font-family: 'Roboto';font-size: 10vw;}
+    #second_row h2 {position: absolute;top: 50vw;left: 34vw;height: 22vw;width: 22vw;background-color: #141414; border-radius: 4vw;text-align: center;padding-top: 5vw;color: #b9b9b9;font-family: 'Roboto';font-size: 10vw;}
+    #second_row h3 {position: absolute;top: 50vw;left: 61vw;height: 22vw;width: 22vw;background-color: #141414; border-radius: 4vw;text-align: center;padding-top: 5vw;color: #b9b9b9;font-family: 'Roboto';font-size: 10vw;}
+
+    #third_row h1 {position: absolute;top: 75vw;left: 7vw;height: 22vw;width: 22vw;background-color: #141414; border-radius: 4vw;text-align: center;padding-top: 5vw;color: #b9b9b9;font-family: 'Roboto';font-size: 10vw;}
+    #third_row h2 {position: absolute;top: 75vw;left: 34vw;height: 22vw;width: 22vw;background-color: #141414; border-radius: 4vw;text-align: center;padding-top: 5vw;color: #b9b9b9;font-family: 'Roboto';font-size: 10vw;}
+    #third_row h3 {position: absolute;top: 75vw;left: 61vw;height: 22vw;width: 22vw;background-color: #141414; border-radius: 4vw;text-align: center;padding-top: 5vw;color: #b9b9b9;font-family: 'Roboto';font-size: 10vw;}
+    #third_row h4 {position: absolute;top: 100vw;left: 34vw;height: 22vw;width: 22vw;background-color: #141414; border-radius: 4vw;text-align: center;padding-top: 5vw;color: #b9b9b9;font-family: 'Roboto';font-size: 10vw;}
+
+    #ok_btn {position: absolute;top: 102vw;left: 10vw;text-align: center;padding-top: 5vw;color: #7b34ff;font-family: 'Roboto';font-size: 5vw;}
+    #del_btn {position: absolute;top: 102vw;left: 64vw;text-align: center;padding-top: 5vw;color: #7b34ff;font-family: 'Roboto';font-size: 5vw;}
+
+    #indice {
+        position: absolute;
+        top: 164vw;
+        left: 43vw;
+        font-size: 5vw;
+        font-family: 'Roboto';
+        color: #fff;
+    }
+
+    #second_page {
+        visibility: hidden;
+    }
+    #b_arrow {
+        position: absolute;
+        top: 5vw;
+        left: 2vw;
+        height: 10vw;
+        width: 10vw;
+        transform: rotate(180deg);
+        filter: invert(1);
+    }
+    #sp_title {
+        position: absolute;
+        top: 20vw;
+        left: 25vw;
+        color: #fff;
+        font-family: 'Roboto';
+        font-size: 10vw;
+        text-align: center;
+    }
+    #sp_emoji1 {
+        position: absolute;
+        top: 20vw;
+        left: 5vw;
+        height: 20vw;
+        width: 20vw;
+        transform: scaleX(-1);
+        opacity: 0.7;
+
+    }
+    #sp_emoji2 {
+        position: absolute;
+        top: 20vw;
+        left: 75vw;
+        height: 20vw;
+        width: 20vw;
+        opacity: 0.7;
+    }
+    #mp_box {
+        position: absolute;
+        top: 50vw;
+        left: 5vw;
+        height: 40vw;
+        width: 90vw;
+        background-color: #282828;
+        border-radius: 5vw;
+    }
+    #mp_image {
+        position: absolute;
+        top: 5vw;
+        left: 5vw;
+        height: 30vw;
+        width: 30vw;
+        border-radius: 2vw;
+    }
+    #mpt-box {
+        position: absolute;
+        top: 1vw;
+        left: 1vw;
+        background-color: #7b34ff;
+        height: 10vw;
+        width: 10vw;
+    }
+    #mp_title {
+        text-align: center;
+        padding-top: 18vw;
+        padding-left: 35vw;
+        font-family: 'PT Sans';
+        color: #fff;
+        font-size: 4.2vw;
+        font-weight: lighter;
+    }
+    #mb_cover_one {
+        position: absolute;
+        top: 95vw;
+        left: 10vw;
+        height: 15vw;
+        width: 15vw;
+    }
+    #mb_cover_two {
+        position: absolute;
+        top: 95vw;
+        left: 32vw;
+        height: 15vw;
+        width: 15vw;
+    }
+    #mb_cover_three {
+        position: absolute;
+        top: 95vw;
+        left: 53vw;
+        height: 15vw;
+        width: 15vw;
+    }
+    #mb_cover_four {
+        position: absolute;
+        top: 95vw;
+        left: 75vw;
+        height: 15vw;
+        width: 15vw;
+    }
+    #msg_box {
+        position: absolute;
+        top: 120vw;
+        left: 5vw;
+        height: auto;
+        width: 90vw;
+        background-color: #282828;
+        border-radius: 5vw;
+    }
+    #msg_box p {
+        padding-top: 4vw;
+        padding-left: 2vw;
+        padding-bottom: 4vw;
+        padding-right: 2vw;
+        font-family: 'Roboto';
+        color: #fff;
+        font-size: 4.3vw;
+        font-weight: lighter;
+        word-wrap: break-word;      /* IE 5.5-7 */
+        white-space: -moz-pre-wrap; /* Firefox 1.0-2.0 */
+        white-space: pre-wrap;      /* current browsers */
+        text-align: center;
+    }
+      
+}
